@@ -1,0 +1,325 @@
+1.title:A Differencing Algorithm for Object-Oriented Programs
+1.abstract:During software evolution, information about changes between different versions of a program is useful for a number of software engineering tasks. For many of these tasks, a purely syntactic differencing may not provide enough information for the task to be performed effectively. This problem is especially relevant in the case of object-oriented software, for which a syntactic change can have subtle and unforeseen effects. In this paper, we present a technique for comparing object-oriented programs that identifies both differences and correspondences between two versions of a program. The technique is based on a representation that handles object-oriented features and, thus, can capture the behavior of object-oriented programs. We also present JDIFF, a tool that implements the technique for Java programs, and empirical results that show the efficiency and effectiveness of the technique on a real program.
+1.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10015
+1.opinion:exclude
+
+2.title:Data-Mining Synthesised Schedulers for Hard Real-Time Systems
+2.abstract:The analysis of hard real-time systems, traditionally performed using RMA/PCP or simulation, is nowadays also studied as a scheduler synthesis problem, where one automatically constructs a scheduler which can guarantee avoidance of deadlock and deadline-miss system states. Even though this approach has the potential for a finer control of a hard real-time system, using fewer resources and easily adapting to further quality aspects (memory/energy consumption, jitter minimisation, etc.), synthesised schedulers are usually extremely large and difficult to understand. Their big size is a consequence of their inherent precision, since they attempt to describe exactly the frontier among the safe and unsafe system states. It nevertheless hinders their application in practise, since it is extremely difficult to validate them or to use them for better understanding the behaviour of the system.<div></div> In this paper we show how one can adapt data-mining techniques to decrease the size of a synthesised scheduler and force its inherent structure to appear, thus giving the system designer a wealth of additional information for understanding and optimising the scheduler and the underlying system. We present, in particular, how it can be used for obtaining hints for a good task distribution to different processing units, for optimising the scheduler itself (sometimes even removing it altogether in a safe manner) and obtaining both per-task and per-system views of the schedulability of the system.
+2.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10002
+2.opinion:exclude
+
+3.title:Automating Traceability for Generated Software Artifacts
+3.abstract:Program synthesis automatically derives programs from specifications of their behavior. At a lower level, compilation automatically derives machine code from source code (i.e. from a specification of its behavior). An advantage of program synthesis/compilation, as opposed to manual coding, is that there is a direct link between the specification and the derived program. This link is, however, not very fine-grained: it can be best characterized as Program is-derived-from Specification. When the generated program needs to be understood or modified, more fine-grained linking is useful.<div></div> In this paper, we present a novel technique for automatically deriving traceability relations between parts of a specification and parts of the synthesized program. The technique is very lightweight and we expect it to work - with varying degrees of success - for any process in which one artifact is automatically derived from another.<div></div> We illustrate the generality of the technique by applying it to two kinds of automatic generation: synthesis of Kalman Filter programs from specifications using the AUTOFILTER program synthesis system, and generation of assembly language programs from C source code using the GCC C compiler. We evaluate the effectiveness of the technique in the latter application.
+3.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10019
+3.opinion:exclude
+
+4.title:Experiences Integrating and Scaling a Performance Test Bed Generator with an Open Source CASE Tool
+4.abstract:We report on our experiences developing a performance test-bed generator for industrial usage by extending an open-source UML CASE tool. This tool generates client and server code, database configuration and deployment scripts from a high-level software architecture description. It automates the code generation, compilation, deployment and performance metric result collection processes. We identify a range of problems that arose from our previous research on performance test-bed generation that needed to be addressed to scale this automated software engineering technique. We describe a range of approaches we used to solve these problems in our new tool. We then report on industrial deployment and evaluation of our new tool and discuss the effectiveness of these solutions.
+4.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10061
+4.opinion:exclude
+
+5.title:A Computational Framework for Supporting Software Inspections
+5.abstract:Software inspections improve software quality by the analysis of software artifacts, detecting their defects for removal before these artifacts are delivered to the following software life cycle activities. Some knowledge regarding software inspections have been acquired by empirical studies. However, we found no indication that computational support for the whole software inspection process using appropriately such knowledge is available.<div></div> This paper describes a computational framework whose requirements set was derived from knowledge acquired by empirical studies to support software inspections. To evaluate the feasibility of such framework two studies have been accomplished: one case study, which has shown the feasibility of using the framework to support inspections, and an experimental study that evaluated the supported software inspection planning activity. Preliminary results of this experimental study suggested that unexperienced subjects are able to plan inspections with higher defect detection effectiveness, and in less time, when using this computational framework.
+5.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10060
+5.opinion:exclude
+
+6.title:Validating Personal Requirements by Assisted Symbolic Behavior Browsing
+6.abstract:Risks and hazards abound for users of today's large scale distributed telecommunications and e-commerce systems. Service nodes are documented loosely and incompletely, omitting functional details that can violate stake-holder requirements and thwart high level goals. For example, it is not enough to know that a book finding service will locate a book for no more than a set price; will the chosen book vendor use an acceptable delivery mode and service? Will it retain or abuse personal information? The OpenModel paradigm provides the basis for a solution: instead of interface information alone, each node publishes a behavioral model of itself. However, large scale and multi-stakeholder systems rule out the use of traditional validation technologies, because state spaces are far too large and incompletely known to support concrete simulation, exhaustive search, or formal proof. Moreover, high level personal requirements like privacy, anonymity, and task success are impossible to formalize completely. This paper describes a new methodology, assisted symbolic behavior browsing, and an implemented tool, GSTVIEW, that embodies it to help the user recognize potential violations of high level requirements. The paper also describes case studies of applying GSTVIEW in the domains of email and web services.
+6.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10064
+6.opinion:exclude
+
+7.title:Automated Support for Framework Selection and Customization
+7.abstract:This paper proposes a new technique for automated support of selection and customization of application frameworks, by using labeled transition systems (LTSs) together with metrics technique. We model the behavior of the frameworks and the system behavior specified in the requirements specification by using two LTSs respectively. We attach some measures to the LTS of the framework, such as the number of the hot spots to be filled. These measures are used to estimate developer's efforts in filling the hot spots for each implementation. The result of estimating the efforts guides the developers to select the implementation, and the structure of the application-specific codes to be filled in can be automatically generated from the selected implementation. Furthermore we discuss case studies in the area of Web application, where Struts and Turbine can be used.
+7.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10031
+7.opinion:exclude
+
+8.title:Adaptable Concern-Based Framework Specialization in UML
+8.abstract:Architectural-level reuse of software can be achieved in the form of application frameworks. Then, the architecture of a system can be copied from a framework, and the developer is liberated to application development. In this scheme, patterns utilized for specializing the framework play a critical role. Unfortunately, the bigger the specialization pattern, the harder it is to adapt the pattern to a particular design due to increasing number of bindings between pattern roles and the elements of the design. In this paper, we introduce a tool supported methodology based on UML in which specialization patterns are grouped to match different concerns, i.e. conceptual matters of interest, they treat. Also, user-controlled instantiation of individual patterns is allowed to promote learning the architectural conventions. We argue that this approach overcomes some limitations, especially the lack of adaptability, of wizards that are commonly used for similar purposes.
+8.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10023
+8.opinion:exclude
+
+9.title:ScriptEase: Generative Design Patterns for Computer Role-Playing Games
+9.abstract:Recently, some researchers have argued that generative design patterns (GDPs) can leverage the obvious design re-use that characterizes traditional design patterns into code re-use. This paper provides additional evidence that GDPs are both useful and productive. Specifically, the current state-of-the-art in the domain of computer games is to script individual game objects to provide the desired interactions for each game adventure. We use BioWare Corp.'s popular Neverwinter Nights computer role-playing game to show how GDPs can be used to generate game scripts. This is a particularly good domain for GDPs, since game designers often have little or no programming skills. We demonstrate our approach using a new GDP tool called ScriptEase.
+9.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10029
+9.opinion:exclude
+
+10.title:Modeling Web-Based Dialog Flows for Automatic Dialog Control
+10.abstract:In web-based applications, the dialog control logic is often hidden in or entwined with the presentation and/or application logic, even if the latter tiers are well-separated. This makes it difficult to control complex dialog structures like nested dialogs, and to reconcile the device-independent business logic with the device-specific interaction patterns required by different clients' I/O capabilities. To avoid continuous re-implementation of the dialog control logic, we present a Dialog Control Framework that is separate from the presentation and business tiers, and manages arbitrarily nested dialog flows on different presentation channels. The framework relies on dialog specifications developed using the Dialog Flow Notation, which are translated into an object-oriented dialog flow model for efficient run-time lookups. This way, the framework automates the dialog control aspect of web-based application development and leaves only the tasks of implementing the business logic, designing the hypertext pages, and specifying the dialog flow to the developer.
+10.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10027
+10.opinion:exclude
+
+11.title:Establishment of Automated Regression Testing at ABB: Industrial Experience Report on 'Avoiding the Pitfalls'
+11.abstract:Establishment of automated testing is a high risk as well as a high investment project. It is not uncommon to come across real-life stories about failed test automation attempts in the literature. In fact, it is often cited that failure rates for test automation projects are as high as -if not higher than- any other software development projects. What are the 'common pitfalls' that all these projects fall into? Can they be avoided via well laid mitigation plans? How does the process of 'pitfall avoidance' relate to the process of 'risk management? in test automation projects?<div></div> After two consecutive projects, ABB has established automated build functional regression testing of its Aspect Integrator Platform (AIP). This paper reports on the experiences from these projects. To this end, it puts the emphasis on the importance of incorporating the 'common pitfalls' in the formal risk management throughout the automated testing establishment life cycle, and the effects of such an act on the execution and success of the projects. Further, it elaborates on the lessons learnt during practice.
+11.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10036
+11.opinion:exclude
+
+12.title:Property-Oriented Test Generation from UML Statecharts
+12.abstract:UML Statecharts is an important modeling formalism with hierarchy, concurrency, broadcast-communication mechanisms and data variables. These facilities help the developers to describe the complex behaviors of an object along its lifecycle naturally. However, the ease of modeling is at the expense of testing: the system developed from Statecharts usually has numerous behaviors and is therefore extremely difficult to receive comprehensive and in-depth testing. This paper presents an approach to deriving targeted test sequences from UML Statecharts according to tester-specified temporal logic properties. Using this approach, testing efforts can be focused on specific properties of the system and usually only a small portion of the total behaviors will be tested. This method suits well the occasions when the testers are interested in just some specific properties of the system or when they have to focus on its critical properties in case that limited budget is available.
+12.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10037
+12.opinion:exclude
+
+13.title:A Scalable Approach to User-Session based Testing of Web Applications through Concept Analysis
+13.abstract:The continuous use of the web for daily operations by businesses, consumers, and government has created a great demand for reliable web applications. One promising approach to testing the functionality of web applications leverages user-session data collected by web servers. This approach automatically generates test cases based on real user profiles. The key contribution of this paper is the application of concept analysis for clustering user sessions for test suite reduction. Existing incremental concept analysis algorithms can be exploited to avoid collecting large user-session data sets and thus provide scalability. We have completely automated the process from user session collection and reduction through replay. Our incremental test suite update algorithm coupled with our experimental study indicate that concept analysis provides a promising means for incrementally updating reduced test suites in response to newly captured user sessions with some loss in fault detection capability and practically no coverage loss.
+13.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10032
+13.opinion:exclude
+
+14.title:Inferring Specifications to Detect Errors in Code
+14.abstract:A new static program analysis method for checking structural properties of code is proposed. The user need only provide a property to check; no further annotations are required. An initial abstraction of the code is computed that over-approximates the effect of function calls. This abstraction is then iteratively refined in response to spurious counterexamples. The refinement involves inferring a context-dependent specification for each function call, so that only as much information about a function is used as is necessary to analyze its caller. When the algorithm terminates, the remaining counterexample is guaranteed not to be spurious, but because the program and its heap are finitized, absence of a counterexample does not constitute proof.
+14.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10075
+14.opinion:exclude
+
+15.title:Analyzing Interaction Orderings with Model Checking
+15.abstract:Human-Computer Interaction (HCI) systems control an ongoing interaction between end-users and computer-based systems. For software-intensive systems, a Graphic User Interface (GUI) is often employed for enhanced usability. Traditional approaches to validation of GUI aspects in HCI systems involve prototyping and live-subject testing. These approaches are limited in their ability to cover the set of possible human-computer interactions that a system may allow, since patterns of interaction may be long running and have large numbers of alternatives.<div></div> In this paper, we propose a static analysis that is capable of reasoning about user-interaction properties of GUI portions of HCI applications written in Java using modern GUI Frameworks, such as Swing™. Our approach consists of partitioning an HCI application into three parts: the Swing library, the GUI implementation, i.e., code that interacts directly with Swing, and the underlying application. We develop models of each of these parts that preserve behavior relevant to interaction ordering. We describe how these models are generated and how we have customized a model checking framework to efficiently analyze their combination.
+15.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10067
+15.opinion:exclude
+
+16.title:Verifying Interactive Web Programs
+16.abstract:Web programs are important, increasingly representing the primary public interfaces of commercial organizations. Unfortunately, Web programs also exhibit numerous flaws. In addition to the usual correctness problems faced by software, Web programs must contend with numerous subtle user operations such as clicking the Back button or cloning and submitting a page multiple times. Many existing Web verification tools fail to even consider, much less effectively handle, these operations.<div></div> This paper describes a model checker designed to identify errors in Web software. We present a technique for automatically generating novel models of Web programs from their source code; these models include the additional control flow enabled by these user operations. In this technique, we exploit a constraint-based approach to avoid overapproximating this control flow; this approach allows us to evade exploding the size of the model. Further, we present a powerful base property language that permits specification of useful Web properties, along with several property idioms that simplify specification of the most common Web properties. Finally, we discuss the implementation of this model checker and a study of its effectiveness.
+16.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10054
+16.opinion:exclude
+
+17.title:Test-Suite Reduction for Model Based Tests: Effects on Test Quality and Implications for Testing
+17.abstract:Model checking techniques can be successfully employed as a test case generation technique to generate tests from formal models. The number of tests cases produced, however, is typically large for complex coverage criteria such as MCDC. Test-suite reduction can provide us with a smaller set of test cases that preserve the original coverage-often a dramatically smaller set. One potential drawback with test-suite reduction is that this might affect the quality of the test-suite in terms of fault finding. Previous empirical studies provide conflicting evidence on this issue. To further investigate the problem and determine its effect when testing formal models of software, we performed an experiment using a large case example of a Flight Guidance System, generated reduced test-suites for a variety of structural coverage criteria while preserving coverage, and recorded their fault finding effectiveness. Our results show that the size of the specification based test-suites can be dramatically reduced and that the fault detection of the reduced test-suites is adversely affected. In this report we describe our experiment, analyze the results, and discuss the implications for testing based on formal specifications.
+17.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10057
+17.opinion:exclude
+
+18.title:Using Transient/Persistent Errors to Develop Automated Test Oracles for Event-Driven Software
+18.abstract:Today's software-intensive systems contain an important class of software, namely event-driven software (EDS). All EDS take events as input, change their state, and (perhaps) output an event sequence. EDS is typically implemented as a collection of event-handlers designed to respond to individual events. The nature of EDS creates new challenges for test automation. In this paper, we focus on those relevant to automated test oracles. A test oracle is a mechanism that determines whether a software executed correctly for a test case. A test case for an EDS consists of a sequence of events. The test case is executed on the EDS, one event at a time. Errors in the EDS may iaappearls and later "disappear" at several points (e.g., after an event is executed) during test case execution. Because of the behavior of these transient (those that disappear) and persistent (those that don't disappear) errors, EDS require complex and expensive test oracles that compare the expected and actual output multiple times during test case execution. We leverage our previous work to study several applications and observe the occurrence of persistent/transient errors. Our studies show that in practice, a large number of errors in EDS are transient and that there are specific classes of events that lead to transient errors. We use the results of this study to develop a new test oracle that compares the expected and actual output at strategic points during test case execution. We show that the oracle is effective at detecting errors and efficient in terms of resource utilization.
+18.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10074
+18.opinion:exclude
+
+19.title:Rostra: A Framework for Detecting Redundant Object-Oriented Unit Tests
+19.abstract:Object-oriented unit tests consist of sequences of method invocations. Behavior of an invocation depends on the state of the receiver object and method arguments at the beginning of the invocation. Existing tools for automatic generation of object-oriented test suites, such as Jtest and JCrasher for Java, typically ignore this state and thus generate redundant tests that exercise the same method behavior, which increases the testing time without increasing the ability to detect faults.<div></div> This paper proposes Rostra, a framework for detecting redundant unit tests, and presents five fully automatic techniques within this framework. We use Rostra to assess and minimize test suites generated by test-generation tools. We also present how Rostra can be added to these tools to avoid generation of redundant tests. We have implemented the five Rostra techniques and evaluated them on 11 subjects taken from a variety of sources. The experimental results show that Jtest and JCrasher generate a high percentage of redundant tests and that Rostra can remove these redundant tests without decreasing the quality of test suites.
+19.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10056
+19.opinion:exclude
+
+20.title:Automated Data Mapping Specification via Schema Heuristics and User Interaction
+20.abstract:Data transformation problems are very common and are challenging to implement for large and complex datasets. We describe a new approach for specifying data mapping transformations between XML schemas using a combination of automated schema analysis agents and selective user interaction. A graphical tool visualises parts of the two schemas to be mapped and a variety of agents analyse all or parts of the schema, voting on the likelihood of matching subsets. The user can confirm or reject suggestions, or even allow schema matches to be automatically determined, incrementally building up to a fully-mapped schema. An implementation of the mapping specification can then be generated.
+20.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10035
+20.opinion:exclude
+
+21.title:A Dataflow Language for Scriptable Debugging
+21.abstract:Debugging is a laborious, manual activity that often involves the repetition of common operations. Ideally, users should be able to describe these repetitious operations as little programs. Debuggers should therefore be programmable, or scriptable. The operating environment of these scripts, however, imposes interesting design challenges on the programming language in which these scripts will be written.<div></div> This paper presents our design of a language for scripting debuggers. The language offers powerful primitives that can precisely and concisely capture many important debugging and comprehension metaphors. The paper also describes a debugger for the Java language built in accordance with these principles. We have implemented this debugger to run alongside the Java Virtual Machine. The paper includes concrete examples of applying this debugger to programs.
+21.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10033
+21.opinion:exclude
+
+22.title:Automatic Method Completion
+22.abstract:Modern software development environments include tools to help programmers write code efficiently and accurately. For example many integrated development environments include variable name completion, method name completion and recently refactoring tools have been added to some environments. This paper extends the idea of automatic completion to include completion of the body of a method by employing machine learning algorithms on the near duplicate code segments that frequently exist in large software projects.
+22.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10034
+22.opinion:exclude
+
+23.title:Consistency Checking in an Infrastructure for Large-Scale Generative Programming
+23.abstract:Ubiquitous computing increases the pressure on the software industry to produce ever more and error-free code. Two recipes from automated programming are available to meet this challenge: On the one hand, generative programming raises the level of abstraction in software development by describing problems in high-level domain-specific languages and making them executable. On the other hand, in situations where one needs to produce a family of similar programs, product line engineering supports code reuse by composing programs from a set of common assets (or features). AHEAD (Algebraic Hierarchical Equations for Application Design) is a framework for generative programming and product line engineering that achieves additional productivity gains by scaling feature composition up. Our contribution is GRAFT, a calculus that gives a formal foundation to AHEAD and provides several mechanisms for making sure that feature combinations are legal and that features in themselves are consistent.
+23.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10005
+23.opinion:exclude
+
+24.title:Verifiable Concurrent Programming Using Concurrency Controllers
+24.abstract:We present a framework for verifiable concurrent programming in Java based on a design pattern for concurrency controllers. Using this pattern, a programmer can write concurrency controller classes defining a synchronization policy by specifying a set of guarded commands and without using any of the error-prone synchronization primitives of Java. We present a modular verification approach that exploits the modularity of the proposed pattern, i.e., decoupling of the controller behavior from the threads that use the controller. To verify the controller behavior (behavior verification) we use symbolic and infinite state model checking techniques, which enable verification of controllers with parameterized constants, unbounded variables and arbitrary number of user threads. To verify that the threads use a controller in the specified manner (interface verification) we use explicit state model checking techniques, which allow verification of arbitrary thread implementations without any restrictions. We show that the correctness of the user threads can be verified using the concurrency controller interfaces as stubs, which improves the efficiency of the interface verification significantly. We also show that the concurrency controllers can be automatically optimized using the specific notification pattern. We demonstrate the effectiveness of our approach on a Concurrent Editor implementation which consists of 2800 lines of Java code with remote procedure calls and complex synchronization constraints.
+24.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10025
+24.opinion:exclude
+
+25.title:Parameterized Interfaces for Open System Verification of Product Lines
+25.abstract:Software product-lines view systems as compositions of features. Each component corresponds to an individual feature, and a composition of features yields a product. Feature-oriented verification must be able to analyze individual features and to compose the results into results on products. Since features interact through shared data, verifying individual features entails open system verification concerns. To verify temporal properties, features must be open to both propositional and temporal information from the remainder of the composed product. This paper addresses both forms of openness through a two-phase technique. The first phase analyzes individual features and generates sufficient constraints for property preservation. The second phase discharges the constraints upon composition of features into a product. We present the technique as well as the results of a case study on an email protocol suite.
+25.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10004
+25.opinion:exclude
+
+26.title:An Architecture for Generating Web-Based, Thin-Client Diagramming Tools
+26.abstract:Thin-client visual design tools can provide a number of advantages over traditional thick-client diagramming tools but are challenging to build. We describe a component-based extension to a thick-client meta-CASE tool that we have been developing that allows any specified diagram editor to be realised as a thin-client tool.
+26.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10003
+26.opinion:exclude
+
+27.title:A Statistical Model to Locate Faults at Input Level
+27.abstract:We present a statistical model to locate faults at the input level based on the failure patterns and the success patterns. The model neither needs to be fed with software module, code or trace information, nor does it require re-executing the program. To evaluate the model, precision and recall are adopted as the criteria. Five programs are examined and 17 testing experiments are conducted in which the model gains 0.803 in precision and 0.697 in recall on average.
+27.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10008
+27.opinion:exclude
+
+28.title:Helping Object-Oriented Framework Use and Evaluation by means of Historical Use Information
+28.abstract:The effort needed in learning how to use an object-oriented framework can be reduced with information about the way that the framework is normally used. Also, this kind of information can help the evaluation of framework use, by means of the comparison of how a development is near or far the supposed way of framework use. Another advantage related to availability of historical information about framework use is to produce a feedback for framework developers, which can observe design weakness highlighted by frequent presumed framework misuse. This work proposes an approach for quantifying the typical way a framework is used, useful for learning how to use it, and by means of statistical comparison, to evaluate framework-based software as well as frameworks. A set of tools developed for automatic obtaining and for browsing this kind of information is presented too.
+28.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10030
+28.opinion:exclude
+
+29.title:Heuristic Search with Reachability Tests for Automated Generation of Test Programs
+29.abstract:Our research complements the current research on automated specification-based testing by proposing a scheme that combines the setup process, test execution, and test validation into a single test program for testing the behavior of object-oriented classes. The test program can be generated automatically given the desired test cases and closed algebraic specifications of the classes. The core of the test program generator is a partial-order planner which plans the sequence of instructions required in the test program. A first-cut implementation of the planner has been presented in [Automated genera-tion of test programs from closed specifications of classes and test cases] based on simple depth-first search. This paper presents a more efficient and effective heuristic search algorithm that performs reachability tests using the Omega Calculator. Test results show that heuristic search with reachability tests significantly reduce the search time required to generate a valid sequence of instructions.
+29.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10024
+29.opinion:exclude
+
+30.title:COMPASS: Tool-Supported Adaptation of Interactions
+30.abstract:This paper presents an aspect-oriented approach and tool to consistently exchange and adapt interactions among software units. This is done by first identifying components, their interactions and interaction patterns. Second, the identified interaction points of components are represented as aspect-oriented ports encapsulating the source elements related to the interaction. The interactions themselves are represented as first-class entities in the form of aspect-oriented connectors connecting the ports of components. These component, port and connector entities constitute an architectural model. Third, the developer reconfigures and adapts interactions exchanging the port and connector entities. This triggers corresponding source code transformations realized as meta programs using the Recoder tool. This approach is implemented as the COMPASS (COMPosition with AspectS) tool, that can currently analyze and transform Java source code based on the infrastructure provided by the Recoder framework.<div></div> The approach and tool are successfully validated replacing a direct method call between a producer and a consumer component by communication via a buffer object.
+30.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10006
+30.opinion:exclude
+
+31.title:On-the-Fly Generation of K-Path Tests for C Functions
+31.abstract:We propose a novel method, called PathCrawler, for the automatic generation of structural tests satisfying the all-paths criterion or its k-path variant. The source code is instrumented so as to recover the symbolic execution path each time that the program under test is executed. This code is first executed using inputs arbitrarily selected from the input domain. The resulting symbolic path is transformed into a path predicate by projection of the conditions onto the input variables. The next test is obtained by using constraint logic programming to find input values outside the domain of the path which is already covered. The instrumented code is then executed on this test and so on, until all feasible paths have been covered. Our method combines static and dynamic analysis in a way that avoids the disadvantages of both. It is currently being implemented for the C language.
+31.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10020
+31.opinion:exclude
+
+32.title:A Case Study in JML-Based Software Validation
+32.abstract:This paper reports on a testing case study applied to a small Java application, partially specified in JML. It illustrates that JML can easily be integrated with classical testing tools based on combinatorial techniques and random generation. It also reveals difficulties to reuse, in a testing context, JML annotations written for a proof process.
+32.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10000
+32.opinion:exclude
+
+33.title:Automated Performance Validation of Software Design: An Industrial Experience
+33.abstract:Early performance validation allows software developers to address performance issues since the first phases of software life cycle, when crucial decisions on the software system are taken. However, the lack of completely automated methodologies and the need of special skills for early software performance modelling and analysis prevent their introduction in real industrial context. The availability of such automation should facilitate the application of these methodologies on industrial products without delaying the software development process.<div></div> Goal of this paper is to report our experience in the modelling and analysis of performance requirements of a real telecommunication system at the design level.
+33.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10011
+33.opinion:exclude
+
+34.title:CHET: A System for Checking Dynamic Specifications
+34.abstract:Software specifications describe how code is suppose to behave. Software model checking and related activities statically investigate software behavior to ensure that it meets a particular specification. We have developed a tool, CHET, that uses model checking techniques to do large-scale checking of dynamic specifications in real systems. The tool uses a finite state specification of the properties to check in terms of abstract events. It first finds all instances in the system where this specification is applicable. For each such instance, it creates an abstract model of the software with respect to the events and then checks this model against the specification. Key aspects of CHET include a full interprocedural flow analysis to identify instances of the specifications and restrict the resultant models, and greatly simplified abstract programs that are easily checked. The system has been used to check a variety of specifications in moderate-sized Java programs.
+34.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10016
+34.opinion:exclude
+
+35.title:From Testing to Diagnosis: An Automated Approach
+35.abstract:The need for testing-for-diagnosis strategies has been identified for a long time, but the explicit link from testing to diagnosis is rare. Here, we start with the study of an algorithm for fault localization that consists of cross-checking information collected from test cases execution traces. Analyzing the type of information needed for an efficient localization, we identify the attribute (called Dynamic Basic Block) that restricts the accuracy of a diagnosis algorithm. Based on this attribute, a test criterion is proposed and validated through rigorous case studies: it shows that test cases can be completed to reach a high level of diagnosis accuracy. So, the dilemma between a reduced testing effort (with as few test cases as possible) and the diagnosis accuracy (that needs as much test cases as possible to get more information) is partly solved by selecting only test cases relevant for diagnosis.
+35.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10013
+35.opinion:exclude
+
+36.title:Aspect Mining Using Event Traces
+36.abstract:Aspect mining tries to identify crosscutting concerns in existing systems and thus supports the adaption to an aspect-oriented design. This paper describes the first aspect mining approach that detects crosscutting concerns in legacy systems based on dynamic analysis.<div></div> The analysis uses program traces that are generated in different program executions as underlying data pool. These traces are then investigated for recurring execution patterns based on different constraints, such as the requirement that the patterns have to exist in different calling contexts in the program trace. The implemented approach was evaluated in several case studies over systems with more than 80 kLoC. The tool was able to identify automatically both existing and seeded crosscutting concerns.
+36.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10018
+36.opinion:exclude
+
+37.title:A Case Study of Coverage-Checked Random Data Structure Testing
+37.abstract:We study coverage-checked random unit testing (CRUT), the practice of repeatedly testing units on sequences of random function calls until given code coverage goals are achieved. Previous research has shown that this practice can be a useful complement to traditional testing methods. However, questions remained as to the breadth of its applicability.<div></div> In this paper, we report on a case study in which we applied CRUT to the testing of two mature public-domain data structures packages. We show that CRUT helped in identifying faults, in debugging, in extracting and specifying actual behaviour, and in achieving greater assurance of the correctness of the debugged software.
+37.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10010
+37.opinion:exclude
+
+38.title:Mapping Template Semantics to SMV
+38.abstract:We show how to create a semantics-based, parameterized translator from model-based notations to SMV, using template semantics. Our translator takes as input a specification and a set of user-provided parameters that encode the specification?s semantics; it produces an SMV model suitable for model checking. Using such a translator, we can model check a specification that has customized semantics. Our work also shows how to represent complex composition operators, such as rendezvous, in the SMV language, in which there is no matching language construct.
+38.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10009
+38.opinion:exclude
+
+39.title:Refactoring Use Case Models on Episodes
+39.abstract:Use case models are widely used to capture functional requirements of a system. However, to obtain well-organized use case models is not easy. Refactoring is an approach to reorganize the internal structure of models in order to improve them or extend them in some way. This paper looks at refactoring of use case models based on the information captured in episode models. We introduce 10 refactoring rules for use case refactoring in detail, including their verification of the behavior-preserving property. We also present a case study based on the Automated Teller Machine.
+39.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10048
+39.opinion:exclude
+
+40.title:Understanding Aspects via Implicit Invocation
+40.abstract:Aspect-oriented programming (AOP) promises improved modularity in software design. However, it also presents novel mechanisms and departs from traditional design theory, leaving researchers in need of a theory and developers in need of guidance as to its appropriate use. This paper rests on the idea that the nature and expressive power of AOP lie largely in programming-language-provided implicit invocation (II) mechanisms, with join points as events, pointcuts as event patterns, advice as methods invoked by events, and aspects as classes that also create event-method bindings. The contribution of this paper is the idea that exposing the II roots of AOP can expedite development of a theory and practice of AOP. We present a formal reduction from AOP to II, then, as a data point, we show that model checking techniques previously developed for II systems can be used to check formal properties of AOP systems automatically.
+40.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10042
+40.opinion:exclude
+
+41.title:Evaluating Clone Detection Techniques from a Refactoring Perspective
+41.abstract:In the last decade, several researchers have investigated techniques to automatically detect duplicated code in programs exceeding hundreds of thousands lines of code. All of these techniques have known merits and deficiencies, but as of today, little is known on how these techniques fit into the refactoring process of object-oriented systems. This paper compares three representative detection techniques (simple line matching, parameterized matching, and metric fingerprints) by means of five small to medium sized cases and analyses the differences between the reported matches. Based on this comparison, we conclude that (1) simple line matching is best suited for a partial, yet advanced restructuring with little effort; (2) metric fingerprints work best for refactoring a system with minimal effort; (3) parameterized matching demands more effort yet allows a more profound, less obvious restructuring of the code.
+41.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10040
+41.opinion:exclude
+
+42.title:Combining the Box Structure Development Method and CSP
+42.abstract:In this paper, we combine the Box Structure Development Method (BSDM) [Principles of Information Systems Analysis and Design] and CSP [Communicating Sequential Processes], with the goal of integrating them into an industrial software development environment. BSDM forms an ideal bridge between the actual system being developed and the abstract models used for formal analysis. CSP complements BSDM by providing the mathematical framework for formal verification, together with its model checker FDR. We present generic algorithms for translating specifications from BSDM into CSP, illustrate how they can be formally verified using FDR and summarise their effectiveness in practice.
+42.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10046
+42.opinion:exclude
+
+43.title:Using a Genetic Algorithm and Formal Concept Analysis to Generate Branch Coverage Test Data Automatically
+43.abstract:Automatic Test Generators (ATGs) are an important support tool for large-scale software development. Contemporary ATGs include JTest that does white box testing down to the method level only and black box testing if a specification exists, and AETG that tests pairwise interactions among input variables. The first automatic test generation approaches were static, based on symbolic execution. Korel suggested a dynamic approach to automatic test data generation using function minimization and directed search. A dynamic approach can handle array, pointer, function and other dynamic constructs more accurately than a static approach but it may also be more expensive since the program under test is executed repeatedly. Subsequent ATGs explored the use of genetic algorithms and simulated annealing. These ATGs address the problem of producing test data for low level code coverage like statement, branch and condition/decision and depend on branch function style instrumentation and/or the program graph.
+43.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10049
+43.opinion:exclude
+
+44.title:Automated Analysis of Timing Information in UML Diagrams
+44.abstract:This paper introduces an approach to adding timing information to UML diagrams for modeling embedded systems. In order to perform automated formal analysis of these UML diagrams with timing information, we extend a previously developed UML formalization framework to provide Promela semantics for the timing elements of the UML diagrams. The paper describes the application of our approach to an electronically controlled steering system obtained from one of our industrial collaborators.
+44.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10041
+44.opinion:exclude
+
+45.title:Combination Model Checking: Approach and a Case Study
+45.abstract:We present combination model checking approach using a SAT-based bounded model checker together with a BDD-based symbolic model checker to provide a more efficient counter example generation process. We provide this capability without compromising the verification capability of the symbolic model checker. The basic idea is to use the symbolic model checker to determine whether or not a property holds in the model. If the property holds, we are done. If it does not, we preempt the counterexample generation and use the SAT-based model checker for this purpose. An application of the combination approach to a version of a Flight Guidance System (FGS) from Rockwell Collins, Inc. shows huge performance gain when checking a collection of several hundred properties.
+45.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10039
+45.opinion:exclude
+
+46.title:Context-Aware Code Certification
+46.abstract:One challenging issue in automated software engineering is to ensure safety of software execution in changing contexts. In such a scenario, various users, the "code consumers", download an application from a remote server and execute it in their heterogeneous environments. In this paper, a generic meta-level framework (C^3) that allows easy adaptation to different contexts for automated safety certification of annotated programs is presented. Context-dependent safety requirements are decoupled from the program specification. The Floyd-Hoare verification method is extended, and a verification condition generator for deriving generic safety preconditions in terms of generic safety predicates is devised and implemented. The generated safety conditions are simplified and transformed into a negated normal form. This translates the safety verification task into the equivalent task to disprove the existence of a counter example in relation to the selected context. One distinguishing feature of C^3 is that safety contexts are meta-level interface specifications. Lifting maps the proof tasks onto the meta-level. Context-dependent safety checking is performed by meta-level reasoning and constraint-solving. A proof of concept implementation was applied to automatically certify absence of context-specific runtime errors and to identify bugs in several cases.
+46.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10044
+46.opinion:exclude
+
+47.title:Instant and Incremental Transformation of Models
+47.abstract:This paper introduces a framework for the instant and incremental transformation of changes among models. It can be configured to understand where and when changes happen in a given source model and the impact these changes have onto a given target model. It can also be configured to select translation rules as needed to update the target model. Incremental transformation is an alternative to the batch transformation and is significantly more efficient in maintaining the synchronicity among large-scale models.
+47.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10047
+47.opinion:exclude
+
+48.title:RCAT: A Performance Analysis Tool
+48.abstract:The existing software performance tools concentrate on identification of program bottlenecks. Although such identification is important, it may not necessarily be the only source of performance deficiency. This paper presents a performance tool called RCAT that detects a new type of performance deficiency referred to as redundant computation. Redundant computation is the execution of a statement(s) that does not influence the program output. Our experience showed that significant performance improvements might be achieved as a result of elimination or reduction of redundant computations. RCAT helps the programmers to improve their C programs by localizing the potential performance deficiencies.
+48.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10038
+48.opinion:exclude
+
+49.title:Modeling Behavior in Compositions of Software Architectural Primitives
+49.abstract:Software architectures and architectural styles are increasingly used for designing large-scale software systems. Alfa is a framework for the composition of style-based software architectures from a small set of primitives. It models the behavior of architectural components and connectors as orderings among events at their inputs and outputs. Formalizing such behavior is useful for checking conformance of architectures to their styles. We therefore propose a formal approach that uses data-abstract constraint automata to model the behavior of Alfa's compositions, and to verify their behavioral style conformance. We have also developed an automated conformance analyzer for Alfa.
+49.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10051
+49.opinion:exclude
+
+50.title:Evaluation of Tool Support for Architectural Evolution
+50.abstract:Evolution of software architectures is, different from architectural design, an area that only few tools have covered. We claim this is due to the lack of support for an important concept of architectural evolution: the notion of architectural design decisions.<div></div> The absence of this concept in architectural evolution leads to several problems. In order to address these problems, we present a set of requirements that tools should support for architectural evolution. We evaluate existing software architecture tools against these architectural requirements. The results are analyzed and an outline for future research directions for architectural evolution tool support is presented.
+50.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10043
+50.opinion:exclude
+
+51.title:Requirements Monitoring for Service-Based Systems: Towards a framework based on Event Calculus
+51.abstract:This paper proposes a framework for run-time monitoring of the compliance of systems composed of web-services with requirements set for them. The framework assumes systems composed of web-services which are co-ordinated by a service composition process expressed in BPEL4WS and uses event calculus to specify the requirements to be monitored. These requirements include behavioural properties of the system which are automatically extracted from the specification of its composition process in BPEL4WS and/or assumptions that system providers can specify in terms of events extracted from this specification. Requirements are checked using a variant of techniques for checking integrity constraints against temporal deductive databases.
+51.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10045
+51.opinion:exclude
+
+52.title:ScriptEase: Generating Scripting Code for Computer Role-Playing Games
+52.abstract:The state-of-the-art in game scripting is to manually script individual game objects that interact in the game. Thousands of non-player characters (NPCs) and props need to be scripted before they play a part in a game adventure. This situation introduces serious concerns about programming effort and reliability. We demonstrate ScriptEase, a tool to facilitate the game scripting process. It is based on generative design patterns for automatic code generation of scripts associated with game objects. ScriptEase is intended for a broad audience, from programmers to game designers and users without programming experience. Game designers can use commonly occurring patterns to generate scripting code without any programming knowledge. This demonstration illustrates the entire process of creating and scripting game props and NPCs.
+52.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10065
+52.opinion:exclude
+
+53.title:Using a Structure-based Configuration Tool for Product Derivation
+53.abstract:Because of the possibly large variability in families of software systems and the complex dependencies between individual software components, product derivation in the context of software-intensive systems is not a trivial task. In this demonstration, we show the domain-independent structure-based configuration tool KONWERK, extended with a knowledge base containing a configuration model representing the domain of car periphery supervision systems. Using this tool, reasoning methods known from structure-based configuration are applied in the area of software-intensive systems. Starting with i) a model describing the variability of already realized software components and ii) a concrete task specification for a specific product, during a knowledge-based product derivation process a description of the needed software components is derived. This description is to be used for realizing, i.e. compiling and linking the desired product. The applicability and usefulness of such an approach will be shown in the demonstration.
+53.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10055
+53.opinion:exclude
+
+54.title:ISPIS: A Framework Supporting Software Inspection Processes
+54.abstract:This paper describes ISPIS, a computational framework for supporting the software inspection process whose requirements set was derived from knowledge acquired by empirical studies. ISPIS allows the inspection of all artifact types by geographically distributed teams. Specific defect detection support is provided by the integration of external tools. A case study has shown the feasibility of using ISPIS to support real inspections.
+54.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10072
+54.opinion:exclude
+
+55.title:CodeCrawler - Polymetric Views in Action
+55.abstract:CodeCrawler is a language independent software visualization tool. It is mainly targeted at visualizing object-oriented software, and in its newest implementation has become a general information visualization tool. It has been validated in several industrial case studies over the past few years. CodeCrawler strongly adheres to lightweight principles: it implements and visualizes polymetric views, visualizations of software enriched with information such as software metrics and other source code semantics.
+55.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10063
+55.opinion:exclude
+
+56.title:T-UPPAAL: Online Model-based Testing of Real-Time Systems
+56.abstract:The goal of testing is to gain confidence in a physical computer based system by means of executing it. More than one third of typical project resources is spent on testing embedded and real-time systems, but still it remains ad-hoc, based on heuristics, and error-prone. Therefore systematic, theoretically well-founded and effective automated real-time testing techniques are of great practical value.
+56.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10059
+56.opinion:exclude
+
+57.title:An Environment for Building a System out of its Requirements
+57.abstract:A toolset for system design and analysis is described. The tool allows individual translated functional requirements to be entered graphically as Behavior Trees. Once integrated these Behavior Trees form a problem domain representation of the design. This representation is automatically mapped to CSP to enable model checking with FDR. A number of consistency checks on the design can be performed. Examples are used to illustrate the results produced by the toolset.
+57.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10053
+57.opinion:exclude
+
+58.title:Automated Dynamic Reconfiguration using AI Planning
+58.abstract:The goal of this work is to automate the failure recovery in distributed component based systems using a planning based approach in dynamic reconfiguration. Our approach comprises of a three step process i.e. Sense-Plan-Act (SPA). 'Sense' is the process of sensing the state of the system. 'Plan' is the process of finding a target configuration and a subsequent plan that takes the system from the present configuration to a target configuration. 'Act' is the process of executing the plan on the system. This paper presents the preliminary ideas and the current status of this work.
+58.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10001
+58.opinion:exclude
+
+59.title:Decision Support for Test Management in Iterative and Evolutionary Development
+59.abstract:Testing resources and time are usually limited, especially by schedules for market-driven products and in fast-paced software development projects. In this paper the author presents his PhD proposal about a framework to support rapid and informed decision-making for test management in the context of iterative and evolutionary development. The objective is to continually focus testing on the value it provides for the project and, thus, enable effective and efficient testing even under uncertainty and schedule pressure.
+59.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10021
+59.opinion:exclude
+
+60.title:Formal Framework for Automated Analysis and Verification of Web-Based Applications
+60.abstract:We present an ongoing Ph.D. research developing a formal approach for modeling an existing web application using communicating finite automata model. We build the automata from a recorded browsing session. The obtained model could then be used to verify user-defined properties of the application with a model checker. We present an implementation of the approach that uses the model checker Spin.
+60.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10022
+60.opinion:exclude
+
+61.title:Decompositional Verification of Component-based Systems-A Hybrid Approach
+61.abstract:This paper introduces a decompositional verification approach for component-based systems through both formal analysis (model-checking) and traditional software testing.
+61.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10007
+61.opinion:exclude
+
+62.title:Interactive Visualization of Concurrents Programs
+62.abstract:Our studies are focussed on applying program visualization techniques to concurrent programs, our approach is oriented to interaction, that is, to let the user the capability to interact with the classes that build up the programs at the sake of a better comprehension of its dynamic behavour.
+62.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10017
+62.opinion:exclude
+
+63.title:Group Support for Distributed Collaborative Concurrent Software Modeling
+63.abstract:This research focuses on the specific problem of distributed brainstorming and the construction of UML models of software through successive distributed teamwork meetings. In Particular we investigate the issues we considered in designing a unified framework based on CSCW concepts and Software Engineering to support concurrent Object-Oriented software analysis and design phases. We present an activity-based model and a prototype called GroupUML based on the framework.
+63.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10014
+63.opinion:exclude
+
+64.title:Collaborative Tools for Mobile Requirements Acquisition
+64.abstract:Conventional software tools that automate or support Requirements Engineering (RE) activities are typically available on traditional desktop-based workstations. The advancing capabilities of mobile devices significantly enhance the scope of automating RE activities. The vision of the proposed research is to design, implement, and evaluate mobile RE tools that automate and support mobile, collaborative requirements acquisition and negotiation activities. This paper describes the pursued research approach and presents results achieved so far.
+64.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10028
+64.opinion:exclude
+
+65.title:Modeling and Simulation of Context-Aware Mobile Systems
+65.abstract:This paper presents an approach for analysis, design and simulation of mobile systems. The approach is developed based on UML-like meta models and graph transformation techniques to support sound methodological principals, formal analysis and refinement. With conceptual and concrete level of modeling and simulation, the approach could support application development and the development of new mobile platforms.
+65.url:http://doi.ieeecomputersociety.org/10.1109/ASE.2004.10012
+65.opinion:exclude
+

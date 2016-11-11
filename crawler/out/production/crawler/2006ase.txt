@@ -1,0 +1,345 @@
+1.title:"Verifying Specifications with Proof Scores in CafeOBJ"
+1.abstract:"Verifying specifications is still one of the most important undeveloped research topics in software engineering. It is important because quite a few critical bugs are caused at the level of domains, requirements, and/or designs. It is also important for the cases where no program codes are generated and specifications are analyzed and verified only for justifying models of problems in real world. This paper gives a survey of our research activities in verifying specifications with proof scores in CafeOBJ. After explaining fundamental issues and importance of verifying specifications, an overview of CafeOBJ language, the proof score approach in CafeOBJ including its applications to several areas are given. This paper is based on our already published books or papers (Diaconescu and Futatsugi, 1998; Futatsugi et al., 2005), and refers to many of our related publications. Interested readers are invited to look into them"
+1.url:http://dx.doi.org/10.1109/ASE.2006.73
+1.opinion:exclude
+
+2.title:"Winning the DARPA Grand Challenge: A Robot Race through the Mojave Desert"
+2.abstract:"Summary form only given. The DARPA Grand Challenge was the most significant event in the field of robotics in more than a decade. A mobile ground robot had to traverse 132 miles of punishing desert terrain in less than ten hours. In 2004, the best robot only made 7.3 miles. A year later, Stanford won this historical challenge and cashed the } prize. This talk, delivered by the leader of the Stanford Racing Team, will provide insights into the software architecture of Stanford's winning robot \"Stanley.\" The robot heavily relied on advanced artificial intelligence, and it used a pipelining architecture to turn sensor data into vehicle controls. The talk will introduce the audience into the fascinating world of autonomous robotics, share many of the race insights, and discuss some of the implications for the future of our society"
+2.url:http://dx.doi.org/10.1109/ASE.2006.74
+2.opinion:exclude
+
+3.title:"Automatic Property Checking for Software: Past, Present and Future"
+3.abstract:"Summary form only given. Over the past few years, we have seen several automatic static analysis tools being developed and deployed in industrial-strength software development. I will survey several of these tools ranging from heuristic and scalable analysis tools (such as PREFix, PREFast and Metal), to sound analysis tools based on counter example driven refinement (such as SLAM). Then, I will present two exciting recent developments in counterexample driven refinement: (1) generalizing counterexample driven refinement to work with any abstract interpretation, and (2) combining directed testing with counterexample driven refinement"
+3.url:http://dx.doi.org/10.1109/ASE.2006.24
+3.opinion:exclude
+
+4.title:"Automated Information Aggregation for Scaling Scale-Resistant Services"
+4.abstract:"Machine learning provides techniques to monitor system behavior and predict failures from sensor data. However, such algorithms are \"scale resistant\" $high computational complexity and not parallelizable. The problem then becomes identifying and delivering the relevant subset of the vast amount of sensor data to each monitoring node, despite the lack of explicit \"relevance\" labels. The simplest solution is to deliver only the \"closest\" data items under some distance metric. We demonstrate a better approach using a more sophisticated architecture: a scalable data aggregation and dissemination overlay network uses an influence metric reflecting the relative influence of one node's data on another, to efficiently deliver a mix of raw and aggregated data to the monitoring components, enabling the application of machine learning tools on real-world problems. We term our architecture level of detail after an analogous computer graphics technique"
+4.url:http://dx.doi.org/10.1109/ASE.2006.18
+4.opinion:exclude
+
+5.title:"Generating Domain-Specific Visual Language Editors from High-level Tool Specifications"
+5.abstract:"Domain-specific visual language editors are useful in many areas of software engineering but developing such editors is challenging and time-consuming. We describe an approach to generating a wide range of these graphical editors for use as plug-ins to the Eclipse environment. Tool specifications from an existing meta-tool, Pounamu, are interpreted to produce dynamic, multi-view, multiuser Eclipse graphical editors. We describe the architecture and implementation of our approach, examples of its use realizing domain-specific modelling tools, and strengths and limitations of the approach"
+5.url:http://dx.doi.org/10.1109/ASE.2006.39
+5.opinion:exclude
+
+6.title:"An Automated Formal Approach to Managing Dynamic Reconfiguration"
+6.abstract:"Dynamic reconfiguration is the process of making changes to software at run-time. The motivation for this is typically to facilitate adaptive systems which change their behavior in response to changes in their operating environment or to allow systems with a requirement for continuous service to evolve uninterrupted. To enable development of reconfigurable applications, we have developed OpenRec, a framework which comprises a reflective component model plus an open and extensible reconfiguration management infrastructure. Recently we have extended OpenRec to verify whether an intended (re)configuration would result in an application's structural constraints being satisfied. Consequently OpenRec can automatically veto proposed changes that would violate configuration constraints. This functionality has been realized by integrating OpenRec with the ALLOY Analyzer tool via a service-oriented architecture. ALLOY is a formal modelling notation which can be used to specify systems and associated constraints. In this paper, we present an overview of the OpenRec framework. In addition, we describe the application of ALLOY to modelling re-configurable component based systems and highlight some interesting experiences with integrating OpenRec and the ALLOY Analyzer"
+6.url:http://dx.doi.org/10.1109/ASE.2006.12
+6.opinion:exclude
+
+7.title:"Differencing and Merging of Architectural Views"
+7.abstract:"Existing approaches to differencing and merging architectural views are based on restrictive assumptions such as requiring view elements to have unique identifiers or exactly matching types. We propose an approach based on structural information by generalizing a published polynomial-time tree-to-tree correction algorithm (that detects inserts, renames and deletes) into a novel algorithm to additionally detect restricted moves and support forcing and preventing matches between view elements. We incorporate the algorithm into tools to compare and merge component-and-connector (C&amp;C) architectural views. Finally, we provide an empirical evaluation of the algorithm on case studies to find and reconcile interesting divergences between architectural views"
+7.url:http://dx.doi.org/10.1109/ASE.2006.33
+7.opinion:exclude
+
+8.title:"An Empirical Comparison of Automated Generation and Classification Techniques for Object-Oriented Unit Testing"
+8.abstract:"Testing involves two major activities: generating test inputs and determining whether they reveal faults. Automated test generation techniques include random generation and symbolic execution. Automated test classification techniques include ones based on uncaught exceptions and violations of operational models inferred from manually provided tests. Previous research on unit testing for object-oriented programs developed three pairs of these techniques: model-based random testing, exception-based random testing, and exception-based symbolic testing. We develop a novel pair, model-based symbolic testing. We also empirically compare all four pairs of these generation and classification techniques. The results show that the pairs are complementary (i.e., reveal faults differently), with their respective strengths and weaknesses"
+8.url:http://dx.doi.org/10.1109/ASE.2006.13
+8.opinion:exclude
+
+9.title:"Command-Form Coverage for Testing Database Applications"
+9.abstract:"The testing of database applications poses new challenges for software engineers. In particular, it is difficult to thoroughly test the interactions between an application and its underlying database, which typically occur through dynamically-generated database commands. Because traditional code-based coverage criteria focus only on the application code, they are often inadequate in exercising these commands. To address this problem, we introduce a new test adequacy criterion that is based on coverage of the database commands generated by an application and specifically focuses on the application-database interactions. We describe the criterion, an analysis that computes the corresponding testing requirements, and an efficient technique for measuring coverage of these requirements. We also present a tool that implements our approach and a preliminary study that shows the approach's potential usefulness and feasibility"
+9.url:http://dx.doi.org/10.1109/ASE.2006.27
+9.opinion:exclude
+
+10.title:"Automatic Identification of Bug-Introducing Changes"
+10.abstract:"Bug-fixes are widely used for predicting bugs or finding risky parts of software. However, a bug-fix does not contain information about the change that initially introduced a bug. Such bug-introducing changes can help identify important properties of software bugs such as correlated factors or causalities. For example, they reveal which developers or what kinds of source code changes introduce more bugs. In contrast to bug-fixes that are relatively easy to obtain, the extraction of bug-introducing changes is challenging. In this paper, we present algorithms to automatically and accurately identify bug-introducing changes. We remove false positives and false negatives by using annotation graphs, by ignoring non-semantic source code changes, and outlier fixes. Additionally, we validated that the fixes we used are true fixes by a manual inspection. Altogether, our algorithms can remove about 38%~51% of false positives and 14%~15% of false negatives compared to the previous algorithm. Finally, we show applications of bug-introducing changes that demonstrate their value for research"
+10.url:http://dx.doi.org/10.1109/ASE.2006.23
+10.opinion:exclude
+
+11.title:"Modularity Analysis of Logical Design Models"
+11.abstract:"Traditional design representations are inadequate for generalized reasoning about modularity in design and its technical and economic implications. We have developed an architectural modeling and analysis approach, and automated tool support, for improved reasoning in these terms. However, the complexity of constraint satisfaction limited the size of models that we could analyze. The contribution of this paper is a more scalable approach. We exploit the dominance relations in our models to guide a divide-and-conquer algorithm, which we have implemented it in our Simon tool. We evaluate its performance in case studies. The approach reduced the time needed to analyze small but representative models from hours to seconds. This work appears to make our modeling and analysis approach practical for research on the evolvability and economic properties of software design architectures"
+11.url:http://dx.doi.org/10.1109/ASE.2006.53
+11.opinion:exclude
+
+12.title:"A Portable Compiler-Integrated Approach to Permanent Checking"
+12.abstract:"Program checking technology is now a mature technology, but is not yet used on a large scale. We identify one cause of this gap in the decoupling of checking tools from the everyday development tools. To radically change the situation, we explore the integration of simple user-defined checks into the core of every development process: the compiler. The checks we implement express constrained reachability queries in the control flow graph taking the form \"from x to y avoiding z\", where x, y, and z are native code patterns containing a blend of syntactic, semantic and dataflow information. Compiler integration enables continuous checking throughout development, but also a pervasive propagation of checking technology. This integration poses some interesting challenges, but opens up new perspectives. Factorizing analyses between checking and compiling improves both the efficiency and the expressiveness of the checks. Minimalist user properties and language-independent code pattern matching ensure that our approach can be integrated almost for free in any compiler for any language. We illustrate this approach with a full-fledged checking compiler for C. We demonstrate the need for permanent checking by partially analyzing two different releases of the Linux kernel"
+12.url:http://dx.doi.org/10.1109/ASE.2006.8
+12.opinion:exclude
+
+13.title:"Integrating and Scheduling an Open Set of Static Analyses"
+13.abstract:"To improve the productivity of the development process, more and more tools for static software analysis are tightly integrated into the incremental build process of an IDE. If multiple interdependent analyses are used simultaneously, the coordination between the analyses becomes a major obstacle to keep the set of analyses open. We propose an approach to integrating and scheduling an open set of static analyses which decouples the individual analyses and coordinates the analysis executions such that the overall time and space consumption is minimized. The approach has been implemented for the Eclipse IDE and has been used to integrate a wide range of analyses such as finding bug patterns, detecting violations of design guidelines, or type system extensions for Java"
+13.url:http://dx.doi.org/10.1109/ASE.2006.43
+13.opinion:exclude
+
+14.title:"Reverse Engineering of Design Patterns from Java Source Code"
+14.abstract:"Recovering design patterns can enhance existing source code analysis tools by bringing program understanding to the design level. This paper presents a new, fully automated pattern detection approach. The new approach is based on our reclassification of the GoF patterns by their pattern intent. We argue that the GoF pattern catalog classifies design patterns in the forward-engineering sense; our reclassification is better suited for reverse engineering. Our approach uses lightweight static program analysis techniques to capture program intent. This paper also describes our tool, PINOT, that implements this new approach. PINOT detects all the GoF patterns that have concrete definitions driven by code structure or system behavior. Our tool is faster, more accurate, and targets more patterns than existing pattern detection tools. PINOT has been used successfully in detecting patterns in Java AWT, JHotDraw, Swing, Apache Ant, and many other programs and packages"
+14.url:http://dx.doi.org/10.1109/ASE.2006.57
+14.opinion:exclude
+
+15.title:"ArchTrace: Policy-Based Support for Managing Evolving Architecture-to-Implementation Traceability Links"
+15.abstract:"Traditional techniques of traceability detection and management are not equipped to handle evolution. This is a problem for the field of software architecture, where it is critical to keep synchronized an evolving conceptual architecture with its realization in an evolving code base. ArchTrace is a new tool that addresses this problem through a policy-based infrastructure for automatically updating traceability links every time an architecture or its code base evolves. ArchTrace is pluggable, allowing developers to choose a set of traceability management policies that best match their situational needs and working styles. We discuss ArchTrace, its conceptual basis, its implementation, and our evaluation of its strengths and weaknesses in a retrospective analysis of data collected from a 20 month period of development of Odyssey, a large-scale software development environment. Results are promising: with respect to the ideal set of traceability links, the policies applied resulted in 95% precision at 89% recall"
+15.url:http://dx.doi.org/10.1109/ASE.2006.16
+15.opinion:exclude
+
+16.title:"Automating Software Traceability in Very Small Companies: A Case Study and Lessons Learne"
+16.abstract:"There is a wide consensus on the benefits of software traceability. However, traceability techniques are still not commonly used in industry $typically only in larger companies and if mandated by standards such as the CMMI or ISO 15504. Success stories in small companies are quite rare. However, small companies represent a significant share of the IT industry and a better understanding of their needs is essential for the research community. This paper presents APIS, a traceability environment we developed and introduced in a very small software company. We discuss the traceability approach and report on key lessons learned. We have found in the project that comparably simple automation techniques are surprisingly effective. We believe that the lessons learned in this project are relevant for researchers and practitioners facing similar challenges"
+16.url:http://dx.doi.org/10.1109/ASE.2006.25
+16.opinion:exclude
+
+17.title:"Bogor/Kiasan: A k-bounded Symbolic Execution for Checking Strong Heap Properties of Open Systems"
+17.abstract:"This paper presents Kiasan, a bounded technique to reason about open systems based on a path sensitive, relatively sound and complete symbolic execution instead of the usual compositional reasoning through weakest precondition calculation that summarizes all execution paths. Kiasan is able to check strong heap properties, and it is fully automatic and flexible in terms of its cost and the guarantees it provides. It allows a user-adjustable mixed compositional/non-compositional reasoning and naturally produces error traces as fault evidence. We implemented Kiasan using the Bogor model checking framework and observed that its performance is comparable to ESC/Java on similar scales of problems and behavioral coverage, while providing the ability to check much stronger specifications"
+17.url:http://dx.doi.org/10.1109/ASE.2006.26
+17.opinion:exclude
+
+18.title:"Security Analysis of Crypto-based Java Programs using Automated Theorem Provers"
+18.abstract:"Determining the security properties satisfied by software using cryptography is difficult: Security requirements such as secrecy, integrity and authenticity of data are notoriously hard to establish, especially in the context of cryptographic interactions. Nevertheless, little attention has been paid so far to the verification of such implementations with respect to the secure use of cryptography. We propose an approach to use automated theorem provers for first-order logic to formally verify crypto-based Java implementations, based on control flow graphs. It supports an abstract and modular security analysis by using assertions in the source code. Thus large software systems can be divided into small parts for which a formal security analysis can be performed more easily and the results composed. The assertions are validated against the program behavior in a run-time analysis. Our approach is supported by the tool JavaSec available as open-source and validated in an application to a Java Card implementation of the Common Electronic Purse Specifications and the Java implementation Jessie of SSL"
+18.url:http://dx.doi.org/10.1109/ASE.2006.60
+18.opinion:exclude
+
+19.title:"Accurate Centralization for Applying Model Checking on Networked Applications"
+19.abstract:"Software model checkers can be applied directly to single-process programs, which typically are multithreaded. Multi-process applications cannot be model checked directly. While multiple processes can be merged manually into a single one, this process is very labor-intensive and a major obstacle towards model checking of client-server applications. Previous work has automated the merging of multiple applications but mostly omitted network communication. Remote procedure calls were simply mined, creating similar results for simple cases while removing much of the inherent complexities involved. Our goal is a fully transparent replacement of network communication. Other language features were also modeled more precisely than in previous work, resulting in a program that is much closer to the original. This makes our approach suitable for testing, debugging, and software model checking. Due to the increased faithfulness of our approach, we can treat a much larger range of applications than before"
+19.url:http://dx.doi.org/10.1109/ASE.2006.10
+19.opinion:exclude
+
+20.title:"Using Decision Trees to Predict the Certification Result of a Build"
+20.abstract:"Large teams of practitioners (developers, testers, etc.) usually work in parallel on the same code base. A major concern when working in parallel is the introduction of integration bugs in the latest shared code. These latent bugs are likely to slow down the project unless they are discovered as soon as possible. Many companies have adopted daily or weekly processes which build the latest source code and certify it by executing simple manual smoke/sanity tests or extensive automated integration test suites. Other members of a team can then use the certified build to develop new features or to perform additional analysis, such as performance or usability testing. For large projects the certification process may take a few days. This long certification process forces team members to either use outdated or uncertified (possibly buggy) versions of the code. In this paper, we create decision trees to predict ahead of time the certification result of a build. By accurately predicting the outcome of the certification process, members of large software teams can work more effectively in parallel. Members can start using the latest code without waiting for the certification process to be completed. To perform our study, we mine historical information (code changes and certification results) for a large software project which is being developed at the IBM Toronto Labs. Our study shows that using a combination of project attributes (such as the number of modified subsystems in a build and certification results of previous builds), we can correctly predict 69% of the time that a build will fail certification. We can as well correctly predict 95% of the time if a build will pass certification"
+20.url:http://dx.doi.org/10.1109/ASE.2006.72
+20.opinion:exclude
+
+21.title:"Managing the Complexity of Large Free and Open Source Package-Based Software Distributions"
+21.abstract:"The widespread adoption of free and open source software (FOSS) in many strategic contexts of the information technology society has drawn the attention on the issues regarding how to handle the complexity of assembling and managing a huge number of (packaged) components in a consistent and effective way. FOSS distributions (and in particular GNU/Linux-based ones) have always provided tools for managing the tasks of installing, removing and upgrading the (packaged) components they were made of While these tools provide a (not always effective) way to handle these tasks on the client side, there is still a lack of tools that could help the distribution editors to maintain, on the server side, large and high-quality distributions. In this paper we present our research whose main goal is to fill this gap: we show our approach, the tools we have developed and their application with experimental results. Our contribution provides an effective and automatic way to support distribution editors in handling those issues that were, until now, mostly addressed using ad-hoc tools and manual techniques"
+21.url:http://dx.doi.org/10.1109/ASE.2006.49
+21.opinion:exclude
+
+22.title:"Concurrent Engineering support in Software Engineering"
+22.abstract:"The evolution of software engineering methodology, from waterfall to spiral, from spiral to agile, indicates that high concurrency, iterative development and short cycles are key factors for effective software engineering. It is widely accepted that supporting (i.e., formalizing controlling, automating and optimizing) concurrent engineering processes is needed to increase predictability of cost, quality and development time. Unfortunately, current systems (e.g., workflows, software configuration management, ...) are too simple and deterministic; they do not include real support for concurrent engineering. We claim this shortcoming is one of the major reasons why current workflow and process support do not significantly help in the support of software engineering. In this paper we present the Celine system, which extends workflows with the definition of high-level executable description of concurrent engineering and therefore contributes to provide effective control over cost, quality and development time"
+22.url:http://dx.doi.org/10.1109/ASE.2006.28
+22.opinion:exclude
+
+23.title:"Mining Aspects from Version History"
+23.abstract:"Aspect raining identifies cross-culling concerns in a program, to help migrating it to an aspect-oriented design. Such concerns may not exist from the beginning, but emerge over time. By analysing where developers add code to a program, our history-based aspect mining (BAM) identifies and ranks cross-cutting concerns. We evaluated the effectiveness of our approach with the history of three open-source projects. BAM scales up to Industrial-sized projects: for example, we were able to identify a locking concern that cross-cuts 1284 methods in Eclipse. Additionally, the precision of HAM increases with project size and history: for Eclipse, it reaches 90% for the top-10 candidates"
+23.url:http://dx.doi.org/10.1109/ASE.2006.50
+23.opinion:exclude
+
+24.title:"Identifying Refactorings from Source-Code Changes"
+24.abstract:"Software has been and is still mostly refactored without tool support. Moreover, as we found in our case studies, programmers tend not to document these changes as refactorings, or even worse label changes as refactorings, although they are not. In this paper we present a technique to detect changes that are likely to be refactorings and rank them according to the likelihood. The evaluation shows that the method has both a high recall and a high precision - it finds most of the refactorings, and most of the found refactoring candidates are really refactorings"
+24.url:http://dx.doi.org/10.1109/ASE.2006.41
+24.opinion:exclude
+
+25.title:"Sieve: A Tool for Automatically Detecting Variations Across Program Versions"
+25.abstract:"Software systems often undergo many revisions during their lifetime as new features are added, bugs repaired, abstractions simplified and refactored, and performance improved. When a revision, even a minor one, does occur, the changes it induces must be tested to ensure that invariants assumed in the original version are not violated unintentionally. In order to avoid testing components that are unchanged across revisions, impact analysis is often used to identify code blocks or functions that are affected by a change. In this paper, we present a novel solution to this general problem that uses dynamic programming on instrumented traces of different program binaries to identify longest common subsequences in strings generated by these traces. Our formulation allows us to perform impact analysis and also to detect the smallest set of locations within the functions where the effect of the changes actually manifests itself. Sieve is a tool that incorporates these ideas. Sieve is unobtrusive, requiring no programmer or compiler intervention to guide its behavior. Our experiments on multiple versions of op ensource C programs shows that Sieve is an effective and scalable tool to identify impact sets and can locate regions in the affected functions where the changes manifest. These results lead us to conclude that Sieve can play a beneficial role in program testing and software maintenance"
+25.url:http://dx.doi.org/10.1109/ASE.2006.61
+25.opinion:exclude
+
+26.title:"From Capability Specifications to Code for Multi-Agent Software"
+26.abstract:"Current ICT application domains, such as Web services and autonomic computing, call for highly flexible systems, capable of adapting to changing operational environments as well as to user needs. Multi-agent system framework do include mechanisms that make flexibility and adaptability possible. In our research we focus on how to take into account environmental constraints and stakeholder needs in the design of software agent capabilities"
+26.url:http://dx.doi.org/10.1109/ASE.2006.38
+26.opinion:exclude
+
+27.title:"An Instant Message-Driven User Interface Framework for Thin Client Applications"
+27.abstract:"Today, thin client applications often rely on the infrastructure of the WWW to deliver their user interfaces (UIs) to clients. While this approach does not require the deployment of application logic on the client, Web-based UIs typically do not provide the same level of usability as window-based UIs. We therefore present a UI framework that combines the flexibility of a thin presentation logic with the usability of a full-featured UI: Our approach uses an XMPP-based instant messaging infrastructure to exchange XUL interface descriptions and events between the application logic on the server and a generic UI rendering engine on the client"
+27.url:http://dx.doi.org/10.1109/ASE.2006.14
+27.opinion:exclude
+
+28.title:"Using communicative acts in interaction design specifications for automated synthesis of user interfaces"
+28.abstract:"Instead of developing user interfaces (UIs) directly, we argue for specifying an interaction design from which UIs can be automatically synthesized. We present an approach to using communicative acts in high-level specification of interaction design, which is implemented and allows automated synthesis of interfaces for multiple devices. Communicative acts derive from speech act theory and carry desired intentions in interactions. Models of communicative acts, UI domain objects and interaction sequences comprise interaction design specifications in our approach and are based on a metamodel that we have defined. As a result, the usability of a synthesized user interface of a real-world application turned out to be good"
+28.url:http://dx.doi.org/10.1109/ASE.2006.71
+28.opinion:exclude
+
+29.title:"Annotation Inference for Safety Certification of Automatically Generated Code (Extended Abstract)"
+29.abstract:"Automated code generation is an enabling technology for model-based software development and promises many benefits, including higher quality and reduced turn-around times. However, the key to realizing these benefits is generator correctness: nothing is gained from replacing manual coding errors with automatic coding errors. In this paper, we describe an alternative technique that uses a generic post-generation annotation inference algorithm. We exploit both the highly idiomatic structure of automatically generated code and the restriction to specific safety properties. Since generated code only constitutes a limited subset of all possible programs, the new \"eureka\" insights required in general remain rare in our case. Since safety properties are simpler than full functional correctness, the required annotations are also simpler and more regular. We can thus use patterns to describe all code constructs that require annotations and templates to describe the required annotations. We use techniques similar to aspect-oriented programming to add the annotations to the generated code: the patterns correspond to (static) point-cut descriptors, while the introduced annotations correspond to advice. The annotation inference algorithm can run completely separately from the generator and is generic with respect to the safety property, although we use initialization safety as running example here. It has been implemented and applied to certify initialization safety for code generated by Auto-Bayes and AutoFilter"
+29.url:http://dx.doi.org/10.1109/ASE.2006.15
+29.opinion:exclude
+
+30.title:"A Unified Model for Product Data Management and Software Configuration Management"
+30.abstract:"Software configuration management (SCM) is the discipline of managing the evolution of a software system. Product data management (PDM) is the discipline of controlling the evolution of a product design. These two domains have been evolving independently and fairly disconnected. Nowadays, the development of modern products involves a substantial and growing part of software development. However, due to the limitations of approaches taken by both domains, efforts to build a unified configuration management (CM) model of SCM and PDM have had limited success. This paper presents a novel unified CM model and its associated CM infrastructure/tools that are configurable and tailorable to support any engineering area. Key contributions include a novel methodology, a unified CM model, and associated tools that allow for the automatic generation of CM code for supporting both hardware designs and software artifacts in multidisciplinary engineering areas"
+30.url:http://dx.doi.org/10.1109/ASE.2006.9
+30.opinion:exclude
+
+31.title:"Human-Friendly Line Routing for Hierarchical Diagrams"
+31.abstract:"Hierarchical diagrams are well-suited for visualizing the structure and decomposition of complex systems. However, the current tools poorly support modeling, visualization and navigation of hierarchical models. Especially the line routing algorithms are poorly suited for hierarchical models: for example, they produce lines that run across nodes or overlap with other lines. In this paper, we present a novel algorithm for line routing in hierarchical models. In particular, our algorithm produces an esthetically appealing layout, routes in real-time, and preserves the secondary notation of the diagrams as far as possible"
+31.url:http://dx.doi.org/10.1109/ASE.2006.40
+31.opinion:exclude
+
+32.title:"Contradiction Finding and Minimal Recovery for UML Class Diagrams"
+32.abstract:"UML (unified modeling language) is the de facto standard model representation language in software engineering. We believe that automated contradiction detection and repair of UML become very important as UML has been widely used. In this paper, we propose a debugging system using logic programming paradigm for UML class diagram with class attributes, multiplicity, generalization relation and disjoint relation. We propose a translation method of a UML class diagram into a logic program, and using a meta-interpreter we can find (set-inclusion-based) minimal sets of rules which leads to contradiction. Then, we use a minimal hitting set algorithm developed by one of the authors to show minimal sets of deletion of rules in order to avoid contradiction"
+32.url:http://dx.doi.org/10.1109/ASE.2006.30
+32.opinion:exclude
+
+33.title:"Programming Language Inherent Support for Constrained XML Schema Definition Data Types and OWL DL"
+33.abstract:"Recently, the Web Ontology Language (OWL) and XML schema definition (XSD) have become ever more important when it comes to conceptualize knowledge and to define programming language independent type systems. However, writing software that operates on ontological data and on XML instance documents still suffers from a lack of compile time support for OWL and XSD. Especially, obeying lexical- and value space constraints that may be imposed on XSD simple data types and preserving the consistency of assertional ontological knowledge is still error prone and laborious. Validating XML instance documents and checking the consistency of ontological knowledge bases according to given XML schema definitions and ontological terminologies, respectively, requires significant amounts of code. This paper presents novel compile time- and code generation features, which were implemented as an extension of the C# programming language. Zhi# provides compile time-and runtime support for constrained XML schema definition simple data types and it guarantees terminological validity for modifications of assertional ontological data"
+33.url:http://dx.doi.org/10.1109/ASE.2006.56
+33.opinion:exclude
+
+34.title:"A methodology for automated test generation guided by functional coverage constraints at specification level"
+34.abstract:"This paper presents an approach to automate test generation from a formal specification and a set of functional test objectives while taking into account coverage constraints at the specification level. We use existing test generation techniques and tools, our contribution is on the methodological side. We define an innovative approach adapted to the industrial domain and its constraints"
+34.url:http://dx.doi.org/10.1109/ASE.2006.6
+34.opinion:exclude
+
+35.title:"An Automated Approach for Goal-driven, Specification-based Testing"
+35.abstract:"This paper presents a specification-based approach that addresses several known challenges including false positives and domain knowledge errors. Our approach begins with a goal graph and plans. Source code is annotated with goals and events and precompiled to emit those at run time. Plans are automatically translated into a rule-based recognizer. An oracle is produced from the pre- and postconditions associated with the plan's goals. When the program is executed, goals and events are emitted and automatically tested against plans and oracles. The concept is demonstrated on a small example and a larger publicly available case study"
+35.url:http://dx.doi.org/10.1109/ASE.2006.11
+35.opinion:exclude
+
+36.title:"Effective Generation of Interface Robustness Properties for Static Analysis"
+36.abstract:"A software system interacts with its environment through system interfaces. Robustness of software systems are governed by various temporal properties related to these interfaces, whose violation leads to system crashes and security compromises. These properties can be formally specified for system interfaces and statically verified against a software system. But manually specifying a large number of interface properties for static verification is often inaccurate or incomplete, apart from being cumbersome. In this paper, we propose a novel framework that effectively generates interface properties for static checking from a few generic, high level robustness rules that capture interface behavior. We implement our framework for an existing static analyzer with simple dataflow extensions and apply it on POSIX-API system interfaces used in 10 Redhat-9.0 open source packages. The results show that the framework can effectively generate a large number of useful interface properties from a few generically specified rules"
+36.url:http://dx.doi.org/10.1109/ASE.2006.35
+36.opinion:exclude
+
+37.title:"Automatic Generation of Detection Algorithms for Design Defects"
+37.abstract:"Maintenance is recognised as the most difficult and expansive activity of the software development process. Numerous techniques and processes have been proposed to ease the maintenance of software. In particular, several authors published design defects formalising \"bad\" solutions to recurring design problems (e.g., anti-patterns, code smells). We propose a language and a framework to express design defects synthetically and to generate detection algorithms automatically. We show that this language is sufficient to describe some design defects and to generate detection algorithms, which have a good precision. We validate the generated algorithms on several programs"
+37.url:http://dx.doi.org/10.1109/ASE.2006.22
+37.opinion:exclude
+
+38.title:"Software Library Usage Pattern Extraction Using a Software Model Checker"
+38.abstract:"The need to manually specify temporal properties of software systems is a major barrier to wider adoption of software model checking, because the specification of software temporal properties is a difficult, time-consuming, and error-prone process. To address this problem, we propose to automatically extract software library usage patterns, which are one type of temporal specifications. Our approach uses a model checker to check a set of software library usage pattern candidates against existing programs using that library, and identifies valid patterns based on model checking results. These valid patterns can help programmers learn about common software library usage. They can also be used to check new programs using the same library. We applied our approach to C programs using the OpenSSL library and the C standard library, and extracted valid usage patterns using BLAST. We also successfully used the extracted valid usage patterns to detect an error in an open source project hosted by SourceForge.net"
+38.url:http://dx.doi.org/10.1109/ASE.2006.63
+38.opinion:exclude
+
+39.title:"Automated Round-trip Software Engineering in Aspect Weaving Systems"
+39.abstract:"We suggest an approach to automated round-trip software engineering in source-level aspect weaving systems that allows for transparent mapping of manual edits in the woven program back to the appropriate source of origin, which is either the application core or the aspect space"
+39.url:http://dx.doi.org/10.1109/ASE.2006.20
+39.opinion:exclude
+
+40.title:"Towards Automatic Assertion Refinement for Separation Logic"
+40.abstract:"Separation logic holds the promise of supporting scalable formal reasoning for pointer programs. Here we consider proof automation for separation logic. In particular we propose an approach to automating partial correctness proofs for recursive procedures. Our proposal is based upon proof planning and proof patching via assertion refinement"
+40.url:http://dx.doi.org/10.1109/ASE.2006.69
+40.opinion:exclude
+
+41.title:"Automated Reasoning on Aspects Interactions"
+41.abstract:"The aspect-oriented paradigm allows weaving aspects in different join points of a program. Aspects can modify object fields and method control flow, thus possibly introducing subtle and undesired interactions (conflicts) among aspects and objects, which are not easily detectable. In this paper we propose a fully automated approach to discover conflicts among classes and aspects directly from Java bytecode. The novelty of this work is the usage of a rule engine for identifying possible conflicts among advices, methods, and fields. The knowledge base is obtained through static analysis of classes and aspects bytecode. The possible conflicts are represented by means of rules that can be easily extended and customized"
+41.url:http://dx.doi.org/10.1109/ASE.2006.19
+41.opinion:exclude
+
+42.title:"Detecting Precedence-Related Advice Interference"
+42.abstract:"Aspect-oriented programming (AOP) has been proposed in literature to overcome modularization shortcomings such as the tyranny of the dominant decomposition. However, the new language constructs introduced by AOP also raise new issues on their own-one of them is potential interference among aspects. In this paper we present an interference criterion to detect and thus help programmers to avoid advice order related problems"
+42.url:http://dx.doi.org/10.1109/ASE.2006.32
+42.opinion:exclude
+
+43.title:"Round-Trip Engineering of Framework-Based Software using Framework-Specific Modeling Languages"
+43.abstract:"This research combines three distinct areas: domain-specific modeling, object-oriented application frameworks and round-trip engineering. We introduce framework-specific modeling languages (FSMLs) which are used for the modeling of framework-based software and enable automated round-trip engineering. We describe a prototype implementation of an example FSML. We also present research outline and future work"
+43.url:http://dx.doi.org/10.1109/ASE.2006.58
+43.opinion:exclude
+
+44.title:"Integrated Variability Modeling of Features and Architecture in Software Product Line Engineering"
+44.abstract:"Existing methods and tools supporting product line variability management typically emphasize either the feature or the architecture level. There have been attempts to combine these aspects, but no widely accepted method is available so far. This paper reports ongoing research in designing and implementing product line variability models, where the focus lies in treating features and architectural elements as parts of an integrated model. The research is carried together with our industry partner Siemens VAI"
+44.url:http://dx.doi.org/10.1109/ASE.2006.42
+44.opinion:exclude
+
+45.title:"Software Connectors for Highly Distributed and Voluminous Data Intensive Systems"
+45.abstract:"We describe a research agenda for selecting software connectors which quantifiably satisfy different scenarios for large volume data distribution. We outline the necessity for a framework which allows a user to select amongst the different distribution connectors available. The framework is based on a classification of distribution connectors along eight key dimensions of data distribution"
+45.url:http://dx.doi.org/10.1109/ASE.2006.62
+45.opinion:exclude
+
+46.title:"Coverage Metrics to Measure Adequacy of Black-Box Test Suites"
+46.abstract:"In black-box testing, one is interested in creating a suite of tests from requirements that adequately exercise the behavior of a software system without regard to the internal structure of the implementation. In current practice, the adequacy of black-box test suites is inferred by examining coverage on an executable artifact, either source code or a software model. We propose the notion of defining structural coverage metrics directly on high-level formal software requirements. These metrics provide objective, implementation-independent measures of how well a black-box test suite exercises a set of requirements. We focus on structural coverage criteria on requirements formalized as linear temporal logic (LTL) properties and explore how they can be adapted to measure finite test cases. These criteria can also be used to automatically generate a requirements-based test suite. Unlike model or code-derived test cases, these tests are immediately traceable to high-level requirements"
+46.url:http://dx.doi.org/10.1109/ASE.2006.31
+46.opinion:exclude
+
+47.title:"Management of Incomplete and Inconsistent Views"
+47.abstract:"Views have long been used as a means to structure and manage conceptual models. Model management aims to keep track of the relationships between a set of views as they evolve, and to describe the manipulations performed over them in terms of a set of predefined operators. A major challenge in model management is handling the incompleteness and inconsistency of views. In this extended abstract, we describe a general framework for the management of incomplete and inconsistent views. We use our framework as a basis for exploring the systematic application of important design principles, such as traceability, reusability and separation of concerns, in model management"
+47.url:http://dx.doi.org/10.1109/ASE.2006.48
+47.opinion:exclude
+
+48.title:"Energy-Awareness in Distributed Java-Based Software Systems"
+48.abstract:"Distributed Java-based software systems are increasingly deployed onto heterogeneous mobile platforms with limited battery resources. In this domain, it is a crucial issue to preserve the energy resource and prolong the system's lifetime. To address this problem, we first suggest a framework that allows the system engineer to estimate the energy consumption of a distributed Java-based software system both during system construction-time and during runtime. Based on our energy estimation framework, we then present two efficient approaches for reducing the software system's energy consumption and consequently increasing the system's lifetime. Finally, we discuss our strategy for evaluating our estimation framework and energy saving approaches"
+48.url:http://dx.doi.org/10.1109/ASE.2006.36
+48.opinion:exclude
+
+49.title:"LSS: A Tool for Large Scale Scenarios"
+49.abstract:"Today's complex computational and embedded systems compute complex quantities from complex inputs, with behavior dependent upon the (distributed) state of the system and its environment. Describing the intended behavior of such a system is challenging. The most natural and commonly used approach is to give a collection of scenarios, where each scenario is a sequence of inputs and expected outputs. An analyst elicits scenarios from subject matter experts (SMEs) to document functional requirements. Scenarios can be represented in a variety of ways, from informal narratives through (formal) linear event sequences. Formal behavior scenarios are useful in many software engineering tasks, including requirements engineering, specification- and architectural-modeling, and test generation. Uses in modeling include model inference, validation, and measuring resource usage and reliability. Finally, scenarios are useful in discovering and documenting gaps in specifications. Existing scenario-based tools and methodologies break down when scenarios grow large. Elicitation becomes impractical, as it requires the human to specify all the steps. Even assuming one can capture thousands or more of input events, it is problematic for the human to describe the correct expected outputs at each point of interest. Finally, even if one can capture all inputs and outputs, the complexity of such an artifact gives one little confidence that it represents desirable behavior in detail, as the risk of undetected errors grows at least linearly with the size. Finally, the behavior of systems described by large scale scenarios typically requires a large and complex set of them, which creates the added difficulty of assuring oneself of covering a \"representative\" subset of a huge space"
+49.url:http://dx.doi.org/10.1109/ASE.2006.47
+49.opinion:exclude
+
+50.title:"A new web browser including a transferable function to Ajax codes"
+50.abstract:"We propose a new Web browser supporting asynchronous communication with Web server computers like Ajax approach. When users access Web applications on our browser, the users can receive similar benefits from Ajax even if the Web applications do not adopt Ajax approach. The browser has a transferable function from normal HTML sources to Ajax codes"
+50.url:http://dx.doi.org/10.1109/ASE.2006.7
+50.opinion:exclude
+
+51.title:"Tobias-Z: An executable formal specification of a test generator"
+51.abstract:"Tobias is a combinatorial testing tool that was used succesfully on several case studies. Currently, the evolution of the tool goes through a significant redevelopment effort. A first step is the production of an executable specification of the Tobias Test Generator. The goal of this specification effort is to provide a synthetic and precise description of Tobias to the developers of the new tool. The specification is expressed in the Z language, supported by the Jaza animator. The executable character of the specification is exploited (1) to assess non-regression of the specification with respect to the existing tool, and (2) to explore new functionalities for the tool"
+51.url:http://dx.doi.org/10.1109/ASE.2006.67
+51.opinion:exclude
+
+52.title:"Model-driven Monitoring: Generating Assertions from Visual Contracts"
+52.abstract:"The Visual Contract Workbench is a tool that supports model-driven development of software systems by lifting the Design by Contract idea, which is usually used at the code level, to the model level. It uses visual contracts for graphically specifying the pre- and post-conditions of an operation. Java classes with JML (Java modeling language) assertions are generated from visual contracts to facilitate automatic monitoring of the correctness of the programmers' implementation"
+52.url:http://dx.doi.org/10.1109/ASE.2006.52
+52.opinion:exclude
+
+53.title:"The Rearranger - A New Assembler Utility"
+53.abstract:"According to a recently discovered theorem, the flow graph of any program, no matter how much \"spaghetti code\" it contains, may be reordered in such a way that it shows a loop structure. The rearranged program has no backward branches except for loopbacks, which go to the head of some loop from somewhere within that loop. No new vertices or variables are introduced; only the order of the vertices is changed. Rearrangement may be automated, for either low-level or high-level languages. We have constructed a tool, which we call a Rearranger, to act on a description of an assembly language, followed by a program written in that language. A spaghetti-code version of depth-first search has been programmed for Intel, MPS, G3, Motorola 68000, and the IBM mainframe, and successfully rearranged for all these machines"
+53.url:http://dx.doi.org/10.1109/ASE.2006.66
+53.opinion:exclude
+
+54.title:"TOPCASED Combining Formal Methods with Model-Driven Engineering"
+54.abstract:"This paper briefly presents the TOPCASED project which gathers industrialists, researchers, universities and SMEs, aiming at producing a free/open-source system/software/hardware-engineering toolkit, implemented over the Eclipse platform, using only standard components. An important aspect of TOPCASED is that it enables researchers to plug in their tools easily. TOPCASED is meant to be used on actual industrial projects and may therefore be considered as an important target by researchers working on formal methods and foundations of software engineering for critical systems"
+54.url:http://dx.doi.org/10.1109/ASE.2006.68
+54.opinion:exclude
+
+55.title:"UML-based Service Discovery Tool"
+55.abstract:"The development of service centric systems has been recognised as an important approach for software system development. In this paper, we present a UML-based tool to identify services that can provide the functionality and satisfy properties and constraints of service centric systems specified during the design phase of the development of these systems and allows for the (re-) formulation of the design models based on the discovered services"
+55.url:http://dx.doi.org/10.1109/ASE.2006.70
+55.opinion:exclude
+
+56.title:"Automated Verification Tool for DHTML"
+56.abstract:"Automated verification for client-side programs of DHTML applications has become necessary. This is because DHTML applications are increasingly complicated in order to enhance the functionality and usability of dynamic Web content. We are therefore motivated to create a tool for automatically verifying a JavaScript program of a DHTML application against a specification describing the page flows. The verification is based on a type inference technique focusing on DOM updates"
+56.url:http://dx.doi.org/10.1109/ASE.2006.21
+56.opinion:exclude
+
+57.title:"Mock-object generation with behavior"
+57.abstract:"Unit testing is a popular way to guide software development and testing. Each unit test should target a single feature, but in practice it is difficult to test features in isolation. Mock objects are a well-known technique to substitute parts of a program which are irrelevant for a particular unit test. Today mock objects are usually written manually supported by tools that generate method stubs or distill behavior from existing programs. We have developed a prototype tool based on symbolic execution of .NET code that generates mock objects including their behavior by analyzing all uses of the mock object in a given unit test. It is not required that an actual implementation of the mocked behavior exists. We are working towards an integration of our tool into Visual Studio Team System"
+57.url:http://dx.doi.org/10.1109/ASE.2006.51
+57.opinion:exclude
+
+58.title:"Domain-specific Model Checking Using The Bogor Framework"
+58.abstract:"Model checking has proven to be an effective technology for verification and debugging in hardware and more recently in software domains. We believe that recent trends in both the requirements for software systems and the processes by which systems are developed suggest that domain-specific model checking engines may be more effective than general purpose model checking tools. To overcome limitations of existing tools which tend to be monolithic and non-extensible, we have developed an extensible and customizable model checking framework called Bogor. In this tutorial, we give an overview of (a) Bogor's direct support for modeling object-oriented designs and implementations, (b) its facilities for extending and customizing its modeling language and algorithms to create domain-specific model checking engines, and (c) pedagogical materials that we have developed to describe the construction of model checking tools built on top of the Bogor infrastructure"
+58.url:http://dx.doi.org/10.1109/ASE.2006.34
+58.opinion:exclude
+
+59.title:"Testing Tools and Techniques: A Mini-Tutorial on Evaluation Methods for ASE"
+59.abstract:"Ever wonder how your tool would fare in the 'real world'? Think your tool excels where others have failed? Is your tool better than a software developer? How can your tool help a software developer? Have you asked these kinds of questions before? If so, then this mini-tutorial is focused on your needs. In the mini-tutorial, I will go over the basics of tool evaluation from the beginning to end, from ethics to theory to analysis. Both qualitative and quantitative approaches will be covered"
+59.url:http://dx.doi.org/10.1109/ASE.2006.65
+59.opinion:exclude
+
+60.title:"2nd Asian Workshop on Aspect-Oriented Software Development (AOAsia)"
+60.abstract:"Separation of concerns is one of the main tenets of software engineering - allowing developers to reason about software systems in sensible portions, regardless which phase of the lifecycle they are working in. Many researchers in software engineering are actually in the field of aspect-orientation without realizing it."
+60.url:http://dx.doi.org/10.1109/ASE.2006.5
+60.opinion:exclude
+
+61.title:"Japanese Workshop on Leveraging Web2.0 Technologies in Software Development Environments (WebSDE)"
+61.abstract:"This paper briefly describes the theme and goals of the WebSDE Workshop on ASE'2006. This workshop emphasizes next-generation software development environments inspired by Web2.0 technologies and seeks to explore ways of automated support to software development in the Web2.0 era."
+61.url:http://dx.doi.org/10.1109/ASE.2006.45
+61.opinion:exclude
+
+62.title:"Japanese Workshop on Requirements Engineering Tools (JWRET)"
+62.abstract:"Requirements Engineering begins to attract attention as a trump letting a project succeed and software improve its reliability. There already exist a lot of research results in requirements engineering area, and they seem to be helpful for practitioners. However, it is not so easy to use such research results because most of them do not provide stable and scalable tool support. One of the reasons is that tasks in requirements engineering highly depend on human decisions and/or insights and it seems to be hard to achieve such tasks systematically and automatically. Of course, we can find several tools to support requirements engineering process. For example, there is a survey of requirements management tools in INCOSE site [1]. Tools for goal oriented requirements analysis can be found in [2] and [3]. One of the common points of such tools is they are really helpful to achieve human-centric tasks in requirements engineering. Therefore, we have to explore what kinds of systematic or automatic support could be provided to improve humancentric tasks in requirements engineering. That is the reason why we plan this workshop. In this workshop, participants will explore tools to support requirements processes: e.g. requirements elicitation, requirement specification, requirements validation, or requirements management."
+62.url:http://dx.doi.org/10.1109/ASE.2006.46
+62.opinion:exclude
+
+63.title:"Preface"
+63.abstract:"Presents the welcome message from the conference proceedings."
+63.url:http://dx.doi.org/10.1109/ASE.2006.54
+63.opinion:exclude
+
+64.title:"Conference Committee"
+64.abstract:"Provides a listing of current committee members."
+64.url:http://dx.doi.org/10.1109/ASE.2006.29
+64.opinion:exclude
+
+65.title:"Program Committee"
+65.abstract:"Provides a listing of current committee members."
+65.url:http://dx.doi.org/10.1109/ASE.2006.64
+65.opinion:exclude
+
+66.title:"Program Committee"
+66.abstract:"Provides a listing of current committee members."
+66.url:http://dx.doi.org/10.1109/ASE.2006.55
+66.opinion:exclude
+
+67.title:"Expert reviewer panel"
+67.abstract:"The conference offers a note of thanks and lists its reviewers."
+67.url:http://dx.doi.org/10.1109/ASE.2006.37
+67.opinion:exclude
+
+68.title:"Introduction to tool demonstrations"
+68.abstract:"Automated software engineering is concerned with how to apply computation to automate or partially automate software engineering tasks to achieve significant improvements in quality and productivity. Tools therefore play a dominant role within automated software engineering. The tool demonstration session at the ASE¿06 conference accounts for that by providing a forum to show and discuss new tool developments that highlight scientific contributions to the field of Automated Software Engineering. This year we have 9 tool demonstrations, each of which was reviewed by two reviewers. Each tool demonstration will have a time slot in the conference program, and also will be given a space at the conference site where conference attendees will be able to ask additional questions and see a personal demonstration. The demonstrations to be given this year bring together a diverse set of tools that provide support for main tasks of the software engineering life cycle. The tools presented range from tools supporting software generation and transformation, requirement engineering, software testing, software verification, and software modeling."
+68.url:http://dx.doi.org/10.1109/ASE.2006.44
+68.opinion:exclude
+
+69.title:"Second International Workshop on Supporting Knowledge Collaboration in Software Development (KCSD2006)"
+69.abstract:"The creation of modern software systems requires knowledge from a wide range of domains: application domains, computer hardware and operating systems, algorithms, programming languages, vast amount of component libraries, development environments, the history of the software system, and users. Because few software developers have all the required knowledge, the development of software is no longer confined to an individual but has to rely on distributed cognition by reaching into a complex and networked world of information and computer mediated collaboration. Knowledge collaboration has thus become an important aspect of software development."
+69.url:http://dx.doi.org/10.1109/ASE.2006.59
+69.opinion:exclude
+

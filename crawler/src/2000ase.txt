@@ -1,0 +1,210 @@
+1.title:"Model checking programs"
+1.abstract:"The majority of the work carried out in the formal methods community throughout the last three decades has (for good reasons) been devoted to special languages designed to make it easier to experiment with mechanized formal methods such as theorem provers and model checkers. In this paper, we give arguments for why we believe it is time for the formal methods community to shift some of its attention towards the analysis of programs written in modern programming languages. In keeping with this philosophy, we have developed a verification and testing environment for Java, called Java PathFinder (JPF), which integrates model checking, program analysis and testing. Part of this work has consisted of building a new Java Virtual Machine that interprets Java bytecode. JPF uses state compression to handle large states, and partial order reduction, slicing, abstraction and run-time analysis techniques to reduce the state space. JPF has been applied to a real-time avionics operating system developed at Honeywell, illustrating an intricate error, and to a model of a spacecraft controller, illustrating the combination of abstraction, run-time analysis and slicing with model checking."
+1.url:http://dx.doi.org/10.1109/ASE.2000.873645
+1.opinion:exclude
+
+2.title:"Exploring the design of an intentional naming scheme with an automatic constraint analyzer"
+2.abstract:"Lightweight formal modeling and automatic analysis were used to explore the design of the intentional naming system (INS), a new scheme for resource discovery in a dynamic networked environment. We constructed a model of INS in Alloy a lightweight relational notation, and analyzed it with the Alloy Constraint Analyzer, a fully automatic simulation and checking tool. In doing so, we exposed several serious flaws in both the algorithm of INS and the underlying naming semantics. We were able to characterize the conditions under which the existing INS scheme works correctly, and evaluate proposed fixes."
+2.url:http://dx.doi.org/10.1109/ASE.2000.873646
+2.opinion:exclude
+
+3.title:"Management of change in structured verification"
+3.abstract:"The use of formal methods in large complex applications implies the need for an evolutionary formal program development in which specification and verification phases are interleaved. Any change of a specification either by adding new parts or by changing erroneous parts affects existing verification work in a subtle way. We present a truth maintenance system for structured specification and verification. It is based on the simple but powerful notion of a development graph as an underlying data structure to represent an actual consistent state of a formal development. Based on this notion we try to minimize the consequences of changes of existing verification work."
+3.url:http://dx.doi.org/10.1109/ASE.2000.873647
+3.opinion:exclude
+
+4.title:"A comparison of questionnaire-based and GUI-based requirements gathering"
+4.abstract:"Software development includes gathering information about tasks, work practices and design options from users. Traditionally requirements gathering takes two forms. Interviews and participatory design (PD) practices gather rich information about the task and the domain but require face-to-face communication between the software engineers and the users. When such communication is not possible, traditional software engineering frequently relies on questionnaires and other paper-based methods. Unfortunately, questionnaires often fail to capture implicit aspects of user tasks that may be identified through one-on-one interactions. This project investigates a method of gathering requirements whereby users, working independently of software engineers, construct rough interfaces augmented with textual argumentation. Our initial study has compared the use of GRC (Graphical Requirements Collector) with questionnaire-based requirements gathering."
+4.url:http://dx.doi.org/10.1109/ASE.2000.873648
+4.opinion:exclude
+
+5.title:"CM-Builder: an automated NL-based CASE tool"
+5.abstract:"This paper describes a natural language-based CASE tool called CM-Builder which aims at supporting the analysis stage of software development in an object-oriented framework. CM-Builder uses robust natural language processing techniques to analyse software requirements texts written in English and build an integrated discourse model of the processed text, represented in a semantic network. This semantic network is then used to automatically construct an initial UML class model representing the object classes mentioned in the text and the relationships among them. The initial model can be directly input to a graphical CASE tool for further refinement by a human analyst. CM-Builder has been quantitatively evaluated in blind trials against a collection of unseen software requirements texts and we present the results of this evaluation, together with the evaluation methodology. The results are very encouraging and demonstrate that tools such as CM-Builder have the potential to play an important role in the software development process."
+5.url:http://dx.doi.org/10.1109/ASE.2000.873649
+5.opinion:exclude
+
+6.title:"Finding comparatively important concepts between texts"
+6.abstract:"Finding important concepts is a common task in requirements engineering. For example, it is needed when building models of a domain or organising requirements documents. Since a lot of information is available in textual form, methods to identify important concepts from texts are potentially useful. Traditional methods for finding important concepts from texts rely on the assumption that the most frequent concepts are the most important. We present an approach that does not depend on this assumption. It makes use of two texts to find important concepts comparatively. We show that this approach is viable. It discovers concepts similar to those found by traditional approaches as well as concepts that are not frequent. Finally, we discuss the possibility of extending this work to requirements classification."
+6.url:http://dx.doi.org/10.1109/ASE.2000.873650
+6.opinion:exclude
+
+7.title:"Upgrading legacy instances of reactive systems"
+7.abstract:"A software product typically goes through many \"upgrades\" (version changes) over its lifetime. Reactive systems, such as e-mail clients, software agents, proxies, traffic controllers, and telephone switches are no exception. Evolving such stateful systems is made difficult by the fact that new versions of the software must deal correctly with legacy instances. Users of earlier versions have invested significant resources in creating the state of the legacy instance, and usually require that this state be upgraded appropriately when the new system version is activated. However, validating the correctness of this upgrading behavior is particularly difficult, whether through testing or more formal techniques like model checking, because legacy states are typically unreachable to the new version of the software. This paper explores this problem and requirements for its solution; presents a simple conceptual and modeling/programming upgrade framework, based upon the idea of a supermodel that allows upgrade behavior to be validated using mainstream approaches; and gives techniques for simplifying the validation problem."
+7.url:http://dx.doi.org/10.1109/ASE.2000.873651
+7.opinion:exclude
+
+8.title:"Renaming detection"
+8.abstract:"Finding changed identifiers in programs is important for program comparison and merging. Comparing two versions of a program is complicated if renaming has occurred. Textual merging is highly unreliable if, in one version, identifiers were renamed, while in the other version, code using the old identifiers was added or modified. A tool that automatically detects renamed identifiers between pairs of program modules is presented. The detector is part of a suite of intelligent differencing and merging programs that exploit the static semantics of programming languages. No special editor is needed for tracking changes. The core of the renaming detector is language independent. The detector works with multiple file pairs, taking into account renamings that affect multiple files. Renaming detectors for Java and Scheme have been implemented. A case study is presented that demonstrates proof of concept. With renaming detection, a higher quality of program comparison and merging is achievable."
+8.url:http://dx.doi.org/10.1109/ASE.2000.873652
+8.opinion:exclude
+
+9.title:"Mutation operators for specifications"
+9.abstract:"Testing has a vital support role in the software engineering process, but developing tests often takes significant resources. A formal specification is a repository of knowledge about a system, and a recent method uses such specifications to automatically generate complete test suites via mutation analysis. We define an extensive set of mutation operators for use with this method. We report the results of our theoretical and experimental investigation of the relationships between the classes of faults detected by the various operators. Finally, we recommend sets of mutation operators which yield good test coverage at a reduced cost compared to using all proposed operators."
+9.url:http://dx.doi.org/10.1109/ASE.2000.873653
+9.opinion:exclude
+
+10.title:"The use of abduction and recursion-editor techniques for the correction of faulty conjectures"
+10.abstract:"The synthesis of programs, as well as other synthetic tasks, often ends up with an unprovable, partially false conjecture. A successful subsequent synthesis attempt depends on determining why the conjecture is faulty and how it can be corrected. Hence, it is highly desirable to have an automated means for detecting and correcting fault conjectures. We introduce a method for patching faulty conjectures. The method is based on abduction and performs its task during an attempt to prove a given conjecture. On input /spl forall/X.G(X), the method builds a definition for a corrective predicate, P(X), such that /spl forall/X.P(X)/spl rarr/G(X) is a theorem. The synthesis of a corrective predicate is guided by the constructive principle of \"formulae as types\", relating inference to computation. We take the construction of a corrective predicate as a program transformation task. The method consists of a collection of construction commands. A construction command is a small program that makes use of one or more program editing commands, geared towards building recursive, equational procedures. A synthesised corrective predicate is guaranteed to be correct, turning a faulty conjecture into a theorem. If conditional, it will be well-defined. If recursive, it will also be terminating."
+10.url:http://dx.doi.org/10.1109/ASE.2000.873654
+10.opinion:exclude
+
+11.title:"A DSL approach to improve productivity and safety in device drivers development"
+11.abstract:"Although new peripheral devices are emerging at a frantic pace and require the fast release of drivers, little progress has been made to improve the development of such device drivers. Too often, this development consists of decoding hardware intricacies, based on inaccurate documentation. Then, assembly-level operations need to be used to interact with the device. These low-level operations reduce the readability of the driver and prevent safety properties from being checked. This paper presents an approach based on domain-specific languages (DSLs) to overcome these problems. We define a language, named Devil (DEVice Interaction Language), dedicated to defining the basic communication with a device. Unlike a general-purpose language, Devil allows a description to be checked for consistency. This not only improves the safety of the interaction with the device but also uncovers bugs early in the development process. To asses our approach, we have shown that Devil is expressive enough to specify a large number of devices. To evaluate productivity and safety improvements over traditional development in C, we report an experiment based on mutation testing."
+11.url:http://dx.doi.org/10.1109/ASE.2000.873655
+11.opinion:exclude
+
+12.title:"A declarative approach for designing and developing adaptive components"
+12.abstract:"An adaptive component is a component that is able to adapt its behavior to different execution contexts. Building an adaptive application is difficult because of component dependencies and the lack of language support. As a result, code that implements adaptation is often tangled, hindering maintenance and evolution. To overcome this problem, we propose a declarative approach to program adaptation. This approach makes the specific issues of adaptation explicit. The programmer can focus on the basic features of the application, and separately provide clear and concise adaptation information. Concretely, we propose adaptation classes, which enrich Java classes with adaptive behaviors. A dedicated compiler automatically generates Java code that implements the adaptive features. Moreover, these adaptation declarations can be checked for consistency to provide additional safety guarantees. As a working example throughout this paper, we use an adaptive sound encoder in an audio-conferencing application. We show the problems associated with a traditional implementation using design patterns, and how these problems are elegantly solved using adaptation classes."
+12.url:http://dx.doi.org/10.1109/ASE.2000.873656
+12.opinion:exclude
+
+13.title:"Circular coinductive rewriting"
+13.abstract:"Circular coinductive rewriting is a new method for proving behavioral properties, that combines behavioral rewriting with circular coinduction. This method is implemented in our new BOBJ (Behavioral OBJects) behavioral specification and computation system, which is used in examples throughout this paper. These examples demonstrate the surprising power of circular coinductive rewriting. The paper also sketches the underlying hidden algebraic theory and briefly describes BOBJ and some of its algorithms."
+13.url:http://dx.doi.org/10.1109/ASE.2000.873657
+13.opinion:exclude
+
+14.title:"Formal construction of the Mathematically Analyzed Separation Kernel"
+14.abstract:"Describes the formal specification and development of a separation kernel. The Mathematically Analyzed Separation Kernel (MASK), has been used by Motorola on a smartcard project, and as part of a hardware cryptographic platform called the Advanced INFOSEC (INFOrmation SECurity) Machine (AIM). Both MASK and AIM were jointly developed by Motorola and the National Security Agency (NSA). This paper first describes the separation kernel concept and its importance to information security. Next, it illustrates the Specware formal development methodology that was used in the development of MASK. Experiences and lessons learned from this formal development process are discussed. Finally, the results of the MASK development process are described, project successes are discussed, and related MASK research is highlighted."
+14.url:http://dx.doi.org/10.1109/ASE.2000.873658
+14.opinion:exclude
+
+15.title:"Simultaneous checking of completeness and ground confluence"
+15.abstract:"Algebraic specifications provide a powerful method for the specification of abstract data types in programming languages and software systems. Completeness and ground confluence are fundamental notions for building algebraic specifications in a correct and modular way. In this paper, we present a procedure for simultaneously checking completeness and ground confluence for specifications with free/non-free constructors and parameterized specifications. If the specification is not complete or not ground-confluent, then our procedure outputs the set of patterns on whose ground instances a function is not defined and it can easily identify the rules that break ground confluence. Our procedure is complete and always terminates under the assumption of an oracle for deciding (joinable) inductive properties. In contrast to previous work, our method does not rely on completion techniques and does not require the computation of critical pairs of axioms. The method has been implemented in the prover SPIKE. This system has allowed us to prove the completeness and the ground confluence of many specifications in a completely automatic way, where related techniques diverge or generate very complex proofs."
+15.url:http://dx.doi.org/10.1109/ASE.2000.873659
+15.opinion:exclude
+
+16.title:"Using Little-JIL to coordinate agents in software engineering"
+16.abstract:"Little-JIL, a new language for programming the coordination of agents, is an executable, high-level process programming language with a formal (yet graphical) syntax and rigorously defined operational semantics. Little-JIL is based on two main hypotheses. The first is that the specification of coordination control structures is separable from other process programming language issues. Little-JIL provides a rich set of control structures while relying on separate systems for support in areas such as resource, artifact and agenda management. The second hypothesis is that processes can be executed by agents who know how to perform their tasks but can benefit from coordination support. Accordingly, each step in Little-JIl is assigned to an execution agent (human or automated). These agents are responsible for initiating steps and performing the work associated with them. This approach has so far proven effective in allowing us to clearly and concisely express the agent coordination aspects of a wide variety of software, workflow and other processes."
+16.url:http://dx.doi.org/10.1109/ASE.2000.873660
+16.opinion:exclude
+
+17.title:"Practical large scale what-if queries: case studies with software risk assessment"
+17.abstract:"When a lack of data inhibits decision-making, large-scale what-if queries can be conducted over the uncertain parameter ranges. Such queries can generate an overwhelming amount of data. We describe a general method for understanding that data. Large-scale what-if queries can guide Monte Carlo simulations of a model. Machine learning can then be used to summarize the output. The summarization is an ensemble of decision trees. The TARZAN system [so-called because it swings through (or searches) the decision trees] can poll the ensemble looking for majority conclusions regarding what factors change the classifications of the data. TARZAN can succinctly present the results from very large what-if queries. For example, in one of the studies presented, we can view the significant features from 10/sup 9/ what-if queries on half a page."
+17.url:http://dx.doi.org/10.1109/ASE.2000.873661
+17.opinion:exclude
+
+18.title:"Exploring and validating the contributions of real-world knowledge to the diagnostic performance of automated database design tools"
+18.abstract:"Automated database design tools employ knowledge-based systems technology in order to provide intelligent support to humans during the process of database analysis and design. However, the level to which these tools can simulate the diagnostic capabilities of human designers when performing a design task remains in question. Human designers employ what might be called \"knowledge of the real world\" in carrying their design activities; such knowledge is employed by only a few automated database design tools. Therefore, in recent years, there have been a number of attempts to develop tools that are capable of exploiting such real-world knowledge. It has been claimed that the use of such knowledge has the potential to increase the diagnostic performance of automated database design tools. However, to date, little if any formal exploration and validation of this claim has taken place. This paper presents our activities in exploring and validating the implications for exploiting three approaches facilitating the use and exploitation of real-world knowledge in the diagnostic performance of database design tools. The results obtained have demonstrated that the improvement of certain aspects of diagnostic performance has been achieved. However, the extent to which these aspects have been attained and subsequently statistically validated varies."
+18.url:http://dx.doi.org/10.1109/ASE.2000.873662
+18.opinion:exclude
+
+19.title:"Using graph rewriting to specify software architectural transformations"
+19.abstract:"In order to understand, analyze and possibly modify software, we commonly examine and manipulate its architecture. For example, we may want to examine the architecture at different levels of abstraction or repair the architecture if it has deviated from our mental model of the software. We can view such manipulations as architectural transformations, and more specifically, as graph transformations. In this paper, we use graph rewriting to specify these transformations so that we can work towards automating them. Specifically, we use the PROGRES tool to formulate executable graph-rewriting specifications for various architectural transformations in order to demonstrate the strengths of using graph rewriting. We have applied our executable specifications to small graphs and our results confirm that graph rewriting offers a high-level visual notation that can be used to neatly specify graph modifications, as well as supporting prototype implementations. It also provides a convenient and intuitive framework for exploring various architectural transformations."
+19.url:http://dx.doi.org/10.1109/ASE.2000.873663
+19.opinion:exclude
+
+20.title:"Specialization patterns"
+20.abstract:"Design patterns offer many advantages for software development, but can introduce inefficiency into the final program. Program specialization can eliminate such overheads, but is most effective when targeted by the user to specific bottlenecks. Consequently, we propose that these concepts are complementary. Program specialization can optimize programs written using design patterns, and design patterns provide information about the program structure that can guide specialization. Concretely, we propose specialization patterns, which describe how to apply program specialization to optimize uses of design patterns. We analyze the specialization opportunities provided by specific uses of design patterns. Based on the analysis of each design pattern, we define the associated specialization pattern. These specialization opportunities can be declared using the specialization classes framework, developed previously. In our experiments, such specialization significantly improves performance."
+20.url:http://dx.doi.org/10.1109/ASE.2000.873664
+20.opinion:exclude
+
+21.title:"Identification of potentially infeasible program paths by monitoring the search for test data"
+21.abstract:"A tool and techniques are presented for test data generation and identification of a path's likely unfeasibility in structural software testing. The tool is based on the dynamic technique and search using genetic algorithms. Our work introduces a new fitness function that combines control and data flow dynamic information to improve the process of search for test data. The unfeasibility issue is addressed by monitoring the genetic algorithm's search progress. An experiment shows the validity of the developed solutions and the benefit of using the tool."
+21.url:http://dx.doi.org/10.1109/ASE.2000.873665
+21.opinion:exclude
+
+22.title:"Generating test data for branch coverage"
+22.abstract:"Branch coverage is an important criteria used during the structural testing of programs. We present a new program execution based approach to generate input data that exercises a selected branch in a program. The test data generation is initiated with an arbitrarily chosen input from the input domain of the program. A new input is derived from the initial input in an attempt to force execution through any of the paths through the selected branch. The method dynamically switches among the paths that reach the branch by refining the input. Using a numerical iterative technique that attempts to generate an input to exercise the branch, it dynamically selects a path that offers less resistance. We have implemented the technique and present experimental results of its performance for some programs. Our results show that our method is feasible and practical."
+22.url:http://dx.doi.org/10.1109/ASE.2000.873666
+22.opinion:exclude
+
+23.title:"Test sequences generation from LUSTRE descriptions: GATEL"
+23.abstract:"We describe a test sequence generation method from LUSTRE descriptions and its companion tool, GATEL. The LUSTRE language is declarative and describes synchronous data-flow computations. It is used for reactive control/command systems, mainly for electrical power production applications. Such critical applications require a high level of reliability. While this language benefits from powerful verification tools, there is still a demand for adequate testing techniques. The method and the tool described can be applied during unit and integration testing, according to a structural (glass box) or functional (black box) test selection strategy. The test generation tool uses some interpretation of the language constructs as boolean and integer interval constraints. Test sequence generation is automated using constraint logic programming techniques. The method and the tool are illustrated on an example extracted from an industrial case study."
+23.url:http://dx.doi.org/10.1109/ASE.2000.873667
+23.opinion:exclude
+
+24.title:"/spl pi/-SPACE: a formal architecture description language based on process algebra for evolving software systems"
+24.abstract:"This paper presents an architecture description language, called /spl pi/-SPACE, designed to cope with requirements on evolving software architectures. /spl pi/-SPACE provides constructs for describing architectures based on the /spl pi/-calculus. It supports the adding, replacing and removing of components and connectors in an evolving software system. Applications of /spl pi/-SPACE are motivated by work on the relationships between business processes (including software development) and the software systems which support them. Businesses need flexible software that enhances their ability to adapt and survive in changing organizations."
+24.url:http://dx.doi.org/10.1109/ASE.2000.873669
+24.opinion:exclude
+
+25.title:"Towards explicit representation of architectural design assumptions"
+25.abstract:"Architecture description languages (ADLs) are means to specify software architectures. During the last few years, a number of ADLs addressed structural aspects of software systems. However, constructing architecture descriptions (ADs) requires specific types of domain knowledge and introduces specific restrictions on the problems to be solved. Such requirements and restrictions play a key role in specifying, reusing and evolving ADs, in acquiring domain knowledge, and in defining the problems to be tackled by the software systems. We discuss the different roles that assumptions play in architecture-centered software development and we derive the requirements for capturing them as part of an ADL. We show how such requirements introduce bias for ADL formalisms."
+25.url:http://dx.doi.org/10.1109/ASE.2000.873670
+25.opinion:exclude
+
+26.title:"Java model checking"
+26.abstract:"This paper presents initial results in model checking multi-threaded Java programs. Java programs are translated into the SAL (Symbolic Analysis Laboratory) intermediate language, which supports dynamic constructs such as object instantiations and thread call stacks. The SAL model checker then exhaustively checks the program description for deadlocks and assertion failures, using traditional model checking optimizations to curb the state explosion problem. Most of the advanced features of the Java language are modeled within our framework."
+26.url:http://dx.doi.org/10.1109/ASE.2000.873671
+26.opinion:exclude
+
+27.title:"Non-interference analysis for mixed criticality code in avionics systems"
+27.abstract:"Future aircraft system procurements are expected to utilise a new form of modular architecture. However, the architectures being put forward only provide for hardware partitioning, and there is little protection for safety-critical processes from interference by rogue processes. This paper puts forward a mixed static/dynamic analysis approach for assuring software partitioning of processes within a single hardware partition. Such an approach is a necessity in cost effective modular architectures if all processes are not to be classified and developed as safety-critical."
+27.url:http://dx.doi.org/10.1109/ASE.2000.873672
+27.opinion:exclude
+
+28.title:"Automated security checking and patching using TestTalk"
+28.abstract:"In many computer system security incidents, attackers successfully intruded computer systems by exploiting known weaknesses. Those computer systems remained vulnerable even after the vulnerabilities were known because it requires constant attention to stay on top of security updates. It is often both time-consuming and error-prone to manually apply security patches to deployed systems. To solve this problem, we propose to develop a framework for automated security checking and patching. The framework, named Securibot, provides a self-operating mechanism for security checking and patching. Securibot performs security testing using security profiles and security updates. It can also detect compromised systems using attack signatures. Most important, the Securibot framework allows system vendors to publish recently discovered security weaknesses and new patches in a machine-readable form so that the Securibot system running on deployed systems can automatically check out security updates and apply the patches."
+28.url:http://dx.doi.org/10.1109/ASE.2000.873673
+28.opinion:exclude
+
+29.title:"An overview of a method and its support tool for generating B specifications from UML notations"
+29.abstract:"This paper presents, through an example, an overview of our method which generates B specifications from an application described using UML notations. We are interested in data intensive applications. This allows us to automatically generate basic update operations from class diagrams. Then these operations are combined to elaborate more complex transactions described in UML by state and collaboration diagrams. The obtained B machines are directly usable in AtelierB and proofs can be performed allowing the consistency of the application to be checked. Finally the outlines of the prototype support tool are described."
+29.url:http://dx.doi.org/10.1109/ASE.2000.873675
+29.opinion:exclude
+
+30.title:"A transformational viewpoint on design patterns"
+30.abstract:"We propose that design patterns be systematically analyzed and reformulated to exhibit a reasoning binding solutions to precisely stated problems, given a set of mechanisms. We show that these mechanisms can be described as program transformations and how an assistant tool could systematically explore the set of potential solutions induced by these transformations. This will both help the selection of the appropriate patterns and their instantiation in the context of the application under development."
+30.url:http://dx.doi.org/10.1109/ASE.2000.873676
+30.opinion:exclude
+
+31.title:"Issues for the automatic generation of safety critical software"
+31.abstract:"This paper presents the advantages and disadvantages of automatic code generation of safety critical software. It discusses three broad approaches to its generation in the context of the high levels of assurance required. Finally a number of issues that commercial tool vendors must address are discussed along with consequent research issues that follow."
+31.url:http://dx.doi.org/10.1109/ASE.2000.873677
+31.opinion:exclude
+
+32.title:"An experiment in scientific program understanding"
+32.abstract:"This paper concerns automated analysis of the meaning or semantics of scientific and engineering code. The procedure involves taking a user's existing code, adding semantic declarations for some primitive variables, and automatically identifying formulae. Parsers encode domain knowledge and recognize formulae in different disciplines including physics, numerical methods, mathematics, and geometry. The parsers will automatically recognize and document some static, semantic concepts and help locate some program semantic errors. Results are shown for three intensively studied codes and seven blind test cases; all test cases are state of the art scientific codes. These techniques may apply to a wider range of scientific codes. If so, the techniques could reduce the time, risk, and effort required to develop and modify scientific codes."
+32.url:http://dx.doi.org/10.1109/ASE.2000.873678
+32.opinion:exclude
+
+33.title:"Representing technology to promote reuse in the software design process"
+33.abstract:"This paper discusses a representation for the specification of technology components exploiting the separation of domain requirements (i.e. functional, data and timing requirements) from installation requirements (i.e. implementation specific infrastructure requirements). A process is outlined for building a technology component archive and a set of coefficients is introduced to assist designers in identifying \"best-fit\" candidates."
+33.url:http://dx.doi.org/10.1109/ASE.2000.873679
+33.opinion:exclude
+
+34.title:"Toward the automatic assessment of evolvability for reusable class libraries"
+34.abstract:"Many sources agree that managing the evolution of an OO system constitutes a complex and resource-consuming task. This is particularly true for reusable class libraries, as the user interface must be preserved to allow for version compatibility. Thus, the symptomatic detection of potential instabilities during the design phase of such libraries may serve to avoid later problems. This paper presents a fuzzy logic-based approach for evaluating the interface stability of a reusable class library, by using structural metrics as stability indicators."
+34.url:http://dx.doi.org/10.1109/ASE.2000.873680
+34.opinion:exclude
+
+35.title:"Translating use cases to sequence diagrams"
+35.abstract:"We present a semi-automatic approach to translate a use case to a sequence diagram, which can be easily used in software design. It needs to normalize a use case manually. It accommodates user instructions on how to translate some parts of the use case description while producing message sends from other parts mechanically."
+35.url:http://dx.doi.org/10.1109/ASE.2000.873681
+35.opinion:exclude
+
+36.title:"New visual interface for engineering use case models"
+36.abstract:"This paper describes a new approach to visualization of scenarios within the use case-based engineering of functional requirements-the so-called video camera metaphor. The video camera metaphor facilitates involvement of business people, customers, problem domain experts and other non-technical stakeholders into capturing and validating formal requirements models. The key tool, supporting the video camera metaphor is the so-called interface editor which allows to draft the prototype user interface and automatically generates a user-friendly front-end to the set of formal modelling tools. The essence of the video camera interface is to associate sequences of events on a UML sequence diagram or an ITU-T message sequence chart with sequences of activations of the elements of the generated user interface. The video camera interface allows capturing scenarios through direct activation of both the input and the output elements of the generated user interface. The generated user interface is also used to replay scenarios for validation purposes."
+36.url:http://dx.doi.org/10.1109/ASE.2000.873682
+36.opinion:exclude
+
+37.title:"Semantic abstraction rules for class diagrams"
+37.abstract:"When dealing with object-oriented models like class and object diagrams, designers easily get overwhelmed by large numbers of model elements and their interdependencies. To deal with the complexities of large-scale software models, this paper presents rules and methods for automated abstraction. Our approach is tool supported and allows designers to periodically \"zoom out\" of a model to investigate and reason about its bigger picture. Our technique has also proven to be well-suited for consistency checking and reverse engineering."
+37.url:http://dx.doi.org/10.1109/ASE.2000.873683
+37.opinion:exclude
+
+38.title:"Automatic derivation of Petri net based distributed specification with optimal allocation of resources"
+38.abstract:"In this paper, we present a method for the synthesis of extended Petri net-based distributed specifications. Our method finds an optimal allocation of resources (computational data) that optimizes the derived distributed specification, based on some reasonable communication-cost criteria."
+38.url:http://dx.doi.org/10.1109/ASE.2000.873684
+38.opinion:exclude
+
+39.title:"Combining the best attributes of qualitative and quantitative risk management tool support"
+39.abstract:"Tools have been developed that support risk identification and management activities during different phases of a project lifecycle. For the earlier stages of the project lifecycle, a tool for the qualitative identification and manipulation of risk and risk mitigation data was developed. For the later stages of the lifecycle, a separate tool for the quantitative manipulation of requirements, risk and risk mitigation data was developed. These two tools were then combined into a single tool. The combination of these qualitative and quantitative risk management tools is the focus of this paper. The combination was first envisioned as simply a convenience, ensuring that the results from the early lifecycle risk management would flow smoothly into the later lifecycle management. However, it was found that the combination led to the possibility of extending many of the capabilities of each tool into the other tool's phases. The net result is a combination that exhibits the best attributes of both qualitative and quantitative risk management tool support."
+39.url:http://dx.doi.org/10.1109/ASE.2000.873685
+39.opinion:exclude
+
+40.title:"A group critic system for object-oriented analysis and design"
+40.abstract:"Presents a group critic system for object-oriented analysis and design. A group critic system is a critiquing system which is aware that the problems it finds in the design are the result of different users acting on different goals, and all are responsible for the problem. The environment also integrates a construction kit and an argumentative hypermedia system. We used annotation to point out criticisms, so that users can view the critiquing system as a true colleague. Annotations are also used as the cooperation medium among the designers."
+40.url:http://dx.doi.org/10.1109/ASE.2000.873686
+40.opinion:exclude
+
+41.title:"Extending UML to support domain analysis"
+41.abstract:"Develops a domain engineering approach and the supporting tools to define software product lines. The approach is composed of a process and a notation. The notation is an extension of UML (Unified Modeling Language), while the process is influenced by the Synthesis and FAST domain engineering methods. Supporting tools have been built on top of a commercial CASE tool for UML. This paper focuses on the domain analysis part of the approach and specifically on the notation and tools to support it. The approach is being applied to sub-domains of the guidance, navigation and control domain, which are a set of functionalities used on-board satellites developed by the NASA Goddard Space Flight Center."
+41.url:http://dx.doi.org/10.1109/ASE.2000.873688
+41.opinion:exclude
+
+42.title:"Proceedings Fifth IEEE International Workshop on Computer Architectures for Machine Perception"
+42.abstract:"Presents the title page of the proceedings record."
+42.url:http://dx.doi.org/10.1109/ASE.2000.873689
+42.opinion:exclude
+
